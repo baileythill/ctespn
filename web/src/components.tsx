@@ -135,7 +135,7 @@ export function PowerCenter({ data }: { data: LeagueData }) {
           <thead>
             <tr>
               <th></th><th>Team</th><th className="num">All-Play W</th>
-              <th className="num">PF</th><th className="num">PF/wk σ</th>
+              <th className="num">PF</th><th className="num">Consistency</th>
               <th className="num">Standings</th><th className="num">Δ</th>
             </tr>
           </thead>
