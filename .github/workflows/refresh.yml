@@ -56,9 +56,7 @@ jobs:
           cache: npm
           cache-dependency-path: web/package-lock.json
 
-      - name: Build site
-        env:
-          GHPAGES_BASE: /ctespn/
+      - name: Build site # custom domain ctespn.tv serves from root, no base path
         run: |
           cd web
           npm ci
