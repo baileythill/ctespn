@@ -1,0 +1,6 @@
+{
+  "_comment": "nonInjuryAbsences: players whose missed games are NOT injury luck (suspension, legal, personal). Applies to all weeks unless 'weeks' is given.",
+  "nonInjuryAbsences": [
+    {"player": "Josh Jacobs", "reason": "legal trouble, not injury"}
+  ]
+}

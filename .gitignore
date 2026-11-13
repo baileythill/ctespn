@@ -1,0 +1,12 @@
+# deps / build
+node_modules/
+web/dist/
+__pycache__/
+
+# raw ESPN snapshots are refetchable (large); the cumulative transaction
+# archive is state and stays tracked
+data/raw/**/week_*.json
+data/raw/**/core.json
+data/raw/**/players.json
+data/raw/**/draft.json
+data/raw/**/byes.json

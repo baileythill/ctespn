@@ -1,0 +1,155 @@
+:root {
+  --bg: #0b0d11;
+  --surface: #101318;
+  --surface-2: #171b22;
+  --line: #262c36;
+  --ink: #f2f4f8;
+  --ink-2: #aab3c0;
+  --ink-3: #6b7482;
+  --accent: #cc0000;        /* CTESPN red */
+  --accent-bright: #ff2a1f;
+  --gold: #f5b400;
+  --lucky: #4f8ff7;         /* diverging: lucky pole */
+  --unlucky: #ef4438;       /* diverging: unlucky pole */
+  --neutral-mid: #8a93a0;
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.45;
+}
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+
+h1, h2, h3, .display { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.02em; }
+
+/* ---------- masthead ---------- */
+.masthead {
+  background: linear-gradient(180deg, #16181d 0%, #0d0f13 100%);
+  border-bottom: 3px solid var(--accent);
+  padding: 14px 20px 10px;
+  display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+}
+.masthead .logo {
+  font-family: var(--font-display);
+  font-size: 40px; font-weight: 700; font-style: italic;
+  color: #fff; margin: 0; line-height: 1;
+}
+.masthead .logo span { color: var(--accent-bright); }
+.masthead .tagline { color: var(--ink-2); font-size: 13px; font-style: italic; }
+.masthead .live {
+  margin-left: auto; display: flex; align-items: center; gap: 7px;
+  font-family: var(--font-display); font-size: 13px; color: var(--ink-2);
+}
+.live-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent-bright);
+  animation: blink 1.6s infinite; }
+@keyframes blink { 50% { opacity: 0.25; } }
+
+/* ---------- ticker ---------- */
+.ticker-wrap {
+  background: #000; border-bottom: 1px solid var(--line);
+  overflow: hidden; white-space: nowrap; position: relative;
+  display: flex; align-items: stretch;
+}
+.ticker-label {
+  background: var(--accent); color: #fff; font-family: var(--font-display);
+  font-size: 13px; padding: 7px 12px; z-index: 2; flex: none;
+}
+.ticker { display: inline-block; padding: 7px 0; animation: scroll 80s linear infinite; }
+.ticker-wrap:hover .ticker { animation-play-state: paused; }
+.ticker-item { color: var(--ink-2); font-size: 13px; margin: 0 24px; }
+.ticker-item b { color: var(--ink); font-weight: 600; }
+.ticker-item .cat { color: var(--gold); font-family: var(--font-display); margin-right: 8px; }
+@keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* ---------- nav ---------- */
+.nav {
+  display: flex; gap: 2px; padding: 0 12px; background: var(--surface);
+  border-bottom: 1px solid var(--line); overflow-x: auto;
+}
+.nav button {
+  background: none; border: none; color: var(--ink-2); cursor: pointer;
+  font-family: var(--font-display); font-size: 15px; text-transform: uppercase;
+  padding: 12px 14px; border-bottom: 3px solid transparent; white-space: nowrap;
+}
+.nav button:hover { color: var(--ink); }
+.nav button.active { color: #fff; border-bottom-color: var(--accent-bright); }
+
+/* ---------- layout ---------- */
+.main { flex: 1; width: 100%; max-width: 1140px; margin: 0 auto; padding: 22px 16px 60px; }
+.segment-title { font-size: 26px; margin: 4px 0 2px; }
+.segment-sub { color: var(--ink-3); font-size: 13px; margin: 0 0 18px; }
+
+.card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 16px 18px; margin-bottom: 18px;
+}
+.card h3 { margin: 0 0 10px; font-size: 17px; color: var(--ink); }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 760px) { .grid-2 { grid-template-columns: 1fr; } }
+
+/* ---------- tables ---------- */
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th {
+  text-align: left; color: var(--ink-3); font-weight: 600; font-size: 11.5px;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  padding: 7px 10px; border-bottom: 2px solid var(--line); white-space: nowrap;
+}
+th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
+td { padding: 8px 10px; border-bottom: 1px solid var(--line); }
+tr:last-child td { border-bottom: none; }
+tr.me td { background: rgba(245, 180, 0, 0.05); }
+.team-cell { display: flex; align-items: center; gap: 9px; font-weight: 600; white-space: nowrap; }
+.rank { color: var(--ink-3); font-family: var(--font-display); width: 22px; display: inline-block; }
+.sub { color: var(--ink-3); font-size: 12px; font-weight: 400; }
+tbody tr:hover td { background: var(--surface-2); }
+
+/* ---------- luck bars ---------- */
+.lbar { display: flex; align-items: center; gap: 8px; min-width: 150px; }
+.lbar .track { position: relative; flex: 1; height: 14px; }
+.lbar .mid { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--line); }
+.lbar .fill { position: absolute; top: 2px; height: 10px; border-radius: 0 4px 4px 0; }
+.lbar .fill.neg { border-radius: 4px 0 0 4px; }
+.val-pos { color: var(--lucky); font-weight: 600; }
+.val-neg { color: var(--unlucky); font-weight: 600; }
+.val-zero { color: var(--neutral-mid); }
+
+.badge {
+  display: inline-block; font-family: var(--font-display); font-size: 11px;
+  padding: 2px 7px; border-radius: 3px; background: var(--surface-2);
+  border: 1px solid var(--line); color: var(--ink-2); margin-left: 8px;
+  vertical-align: middle;
+}
+.badge.hot { background: var(--accent); border-color: var(--accent); color: #fff; }
+.badge.gold { background: rgba(245,180,0,0.15); border-color: var(--gold); color: var(--gold); }
+
+/* ---------- lower-third take ---------- */
+.take {
+  border-left: 4px solid var(--accent); background: var(--surface-2);
+  padding: 10px 14px; margin: 10px 0; font-size: 14px; color: var(--ink-2);
+}
+.take b { color: var(--ink); }
+
+/* ---------- trend chart ---------- */
+.trend-controls { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.chip {
+  background: var(--surface-2); border: 1px solid var(--line); color: var(--ink-2);
+  border-radius: 14px; padding: 4px 11px; font-size: 12.5px; cursor: pointer;
+}
+.chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tooltip {
+  position: absolute; pointer-events: none; background: #000; border: 1px solid var(--line);
+  border-radius: 6px; padding: 7px 10px; font-size: 12.5px; z-index: 5; min-width: 130px;
+}
+.tooltip .tt-week { color: var(--ink-3); font-size: 11px; text-transform: uppercase; }
+
+footer {
+  border-top: 1px solid var(--line); color: var(--ink-3); font-size: 12px;
+  text-align: center; padding: 18px; font-style: italic;
+}

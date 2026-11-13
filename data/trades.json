@@ -1,0 +1,11 @@
+{
+  "_comment": "Authoritative trade list. Auto-detected from roster swaps; correct/add as needed. 'week' = last week the players were on their old teams. Players listed here are excluded from the Regret Index for the team that sent them away.",
+  "trades": [
+    {"week": 3, "teams": ["SBhayshul Education", "50 Shaheed's Of Maye"],
+     "players": {"Jaylen Waddle": "50 Shaheed's Of Maye", "Bhayshul Tuten": "SBhayshul Education"}},
+    {"week": 3, "teams": ["Nice Tets, B. Nix", "Laporta Potty "],
+     "players": {"George Pickens": "Laporta Potty ", "Alvin Kamara": "Laporta Potty ", "Josh Downs": "Nice Tets, B. Nix", "Mark Andrews": "Nice Tets, B. Nix"}},
+    {"week": 3, "teams": ["Laporta Potty ", "Likely going to Butker"],
+     "players": {"TreVeyon Henderson": "Likely going to Butker", "Quinshon Judkins": "Likely going to Butker", "D'Andre Swift": "Laporta Potty ", "Romeo Doubs": "Laporta Potty "}}
+  ]
+}
