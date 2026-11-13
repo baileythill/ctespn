@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { LeagueData } from "./types";
 import { analystTake, fmt, powerRankings, signed, teamName, valClass } from "./util";
 
@@ -119,38 +120,76 @@ export function ComponentCenter({ data }: { data: LeagueData }) {
 }
 
 export function PowerCenter({ data }: { data: LeagueData }) {
-  const ranks = powerRankings(data.teams);
+  const lastWeek = data.generatedWeekThrough;
+  const [from, setFrom] = useState(1);
+  const [to, setTo] = useState(lastWeek);
+  const fullSeason = from === 1 && to === lastWeek;
+  const ranks = powerRankings(data, from, to);
   const standings = [...data.teams].sort(
     (a, b) => b.wins - a.wins || b.pointsFor - a.pointsFor);
   const standingOf = new Map(standings.map((t, i) => [t.teamId, i + 1]));
+  const weekOpts = Array.from({ length: lastWeek }, (_, i) => i + 1);
   return (
     <>
       <h2 className="segment-title">Power Rankings</h2>
       <p className="segment-sub">
-        The luck-free truth: 60% all-play record, 40% scoring. Δ = spots vs the actual
-        standings — big positive numbers mean the standings are lying about you.
+        The luck-free truth: 60% all-play record, 40% scoring, over the weeks you pick.
+        {fullSeason
+          ? " Δ = spots vs the actual standings — big positive numbers mean the standings are lying about you."
+          : " Record shows actual results (H2H + median) in the selected stretch."}
       </p>
       <div className="card">
+        <div className="trend-controls">
+          <label className="chip" style={{ cursor: "default" }}>
+            Weeks{" "}
+            <select value={from} onChange={(e) => {
+              const v = Number(e.target.value);
+              setFrom(v); if (v > to) setTo(v);
+            }}>
+              {weekOpts.map((w) => <option key={w} value={w}>{w}</option>)}
+            </select>
+            {" "}to{" "}
+            <select value={to} onChange={(e) => {
+              const v = Number(e.target.value);
+              setTo(v); if (v < from) setFrom(v);
+            }}>
+              {weekOpts.map((w) => <option key={w} value={w}>{w}</option>)}
+            </select>
+          </label>
+          <button className={"chip" + (fullSeason ? " on" : "")}
+            onClick={() => { setFrom(1); setTo(lastWeek); }}>Full season</button>
+          <button className={"chip" + (from === Math.max(1, lastWeek - 2) && to === lastWeek ? " on" : "")}
+            onClick={() => { setFrom(Math.max(1, lastWeek - 2)); setTo(lastWeek); }}>Last 3</button>
+          <button className={"chip" + (from === Math.max(1, lastWeek - 4) && to === lastWeek ? " on" : "")}
+            onClick={() => { setFrom(Math.max(1, lastWeek - 4)); setTo(lastWeek); }}>Last 5</button>
+        </div>
         <table>
           <thead>
             <tr>
               <th></th><th>Team</th><th className="num">All-Play W</th>
               <th className="num">PF</th><th className="num">Consistency</th>
-              <th className="num">Standings</th><th className="num">Δ</th>
+              {fullSeason
+                ? <><th className="num">Standings</th><th className="num">Δ</th></>
+                : <th className="num">Record</th>}
             </tr>
           </thead>
           <tbody>
-            {ranks.map(({ team: t }, i) => {
+            {ranks.map((r, i) => {
+              const t = r.team;
               const d = (standingOf.get(t.teamId) ?? 0) - (i + 1);
               return (
                 <tr key={t.teamId}>
                   <td><span className="rank">{i + 1}</span></td>
                   <td className="team-cell">{t.name.trim()}</td>
-                  <td className="num">{fmt(t.allPlayWins, 1)}</td>
-                  <td className="num">{fmt(t.pointsFor, 0)}</td>
-                  <td className="num">{fmt(t.scoreStdev, 1)}</td>
-                  <td className="num">#{standingOf.get(t.teamId)}</td>
-                  <td className={"num " + valClass(d)}>{d === 0 ? "—" : signed(d, 0)}</td>
+                  <td className="num">{fmt(r.allPlay, 1)}</td>
+                  <td className="num">{fmt(r.pf, 0)}</td>
+                  <td className="num">{fmt(r.stdev, 1)}</td>
+                  {fullSeason
+                    ? <>
+                        <td className="num">#{standingOf.get(t.teamId)}</td>
+                        <td className={"num " + valClass(d)}>{d === 0 ? "—" : signed(d, 0)}</td>
+                      </>
+                    : <td className="num">{r.wins}-{r.losses}</td>}
                 </tr>
               );
             })}

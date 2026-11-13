@@ -143,6 +143,10 @@ tbody tr:hover td { background: var(--surface-2); }
   border-radius: 14px; padding: 4px 11px; font-size: 12.5px; cursor: pointer;
 }
 .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip select {
+  background: var(--surface); color: var(--ink); border: 1px solid var(--line);
+  border-radius: 6px; padding: 2px 4px; font-size: 12.5px;
+}
 .tooltip {
   position: absolute; pointer-events: none; background: #000; border: 1px solid var(--line);
   border-radius: 6px; padding: 7px 10px; font-size: 12.5px; z-index: 5; min-width: 130px;
