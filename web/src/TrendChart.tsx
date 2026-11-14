@@ -2,9 +2,14 @@ import { useMemo, useRef, useState } from "react";
 import type { LeagueData } from "./types";
 import { fmt, signed, teamName } from "./util";
 
-const W = 920, H = 380, PAD = { t: 18, r: 120, b: 34, l: 48 };
-
 export function TrendCenter({ data }: { data: LeagueData }) {
+  const narrow = typeof window !== "undefined" &&
+    window.matchMedia("(max-width: 760px)").matches;
+  const W = narrow ? 470 : 920;
+  const H = narrow ? 320 : 380;
+  const PAD = narrow
+    ? { t: 14, r: 14, b: 30, l: 38 }
+    : { t: 18, r: 120, b: 34, l: 48 };
   const teams = data.teams;
   const [sel, setSel] = useState<number>(teams[0]?.teamId ?? 1);
   const [hover, setHover] = useState<{ x: number; y: number; week: number } | null>(null);
@@ -97,7 +102,7 @@ export function TrendCenter({ data }: { data: LeagueData }) {
               <circle key={p.week} cx={x(p.week)} cy={y(p.luck)} r={4}
                 fill="var(--accent-bright)" stroke="var(--surface)" strokeWidth={2} />
             ))}
-            {selPts.length > 0 && (
+            {!narrow && selPts.length > 0 && (
               <text x={x(selPts[selPts.length - 1].week) + 8}
                 y={y(selPts[selPts.length - 1].luck) + 4}
                 fontSize={12.5} fontWeight={600} fill="var(--ink)">

@@ -20,9 +20,7 @@ export function LuckBar({ value, max }: { value: number; max: number }) {
           }}
         />
       </div>
-      <span className={valClass(value)} style={{ width: 52, textAlign: "right" }}>
-        {signed(value)}
-      </span>
+      <span className={"val " + valClass(value)}>{signed(value)}</span>
     </div>
   );
 }
@@ -47,7 +45,7 @@ export function BigBoard({ data }: { data: LeagueData }) {
           <thead>
             <tr>
               <th></th><th>Team</th><th className="num">Record</th>
-              <th className="num">xW</th><th>Luck Index</th>
+              <th className="num hide-m">xW</th><th>Luck Index</th>
             </tr>
           </thead>
           <tbody>
@@ -63,7 +61,7 @@ export function BigBoard({ data }: { data: LeagueData }) {
                   <div className="sub">{analystTake(t)}</div>
                 </td>
                 <td className="num">{t.wins}-{t.losses}</td>
-                <td className="num">{fmt(t.xWins, 1)}</td>
+                <td className="num hide-m">{fmt(t.xWins, 1)}</td>
                 <td><LuckBar value={t.luckIndex} max={max} /></td>
               </tr>
             ))}

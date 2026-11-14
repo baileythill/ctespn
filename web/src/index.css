@@ -116,6 +116,7 @@ tbody tr:hover td { background: var(--surface-2); }
 .lbar .mid { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--line); }
 .lbar .fill { position: absolute; top: 2px; height: 10px; border-radius: 0 4px 4px 0; }
 .lbar .fill.neg { border-radius: 4px 0 0 4px; }
+.lbar .val { width: 52px; text-align: right; flex: none; }
 .val-pos { color: var(--lucky); font-weight: 600; }
 .val-neg { color: var(--unlucky); font-weight: 600; }
 .val-zero { color: var(--neutral-mid); }
@@ -152,6 +153,24 @@ tbody tr:hover td { background: var(--surface-2); }
   border-radius: 6px; padding: 7px 10px; font-size: 12.5px; z-index: 5; min-width: 130px;
 }
 .tooltip .tt-week { color: var(--ink-3); font-size: 11px; text-transform: uppercase; }
+
+/* ---------- phone layout ---------- */
+@media (max-width: 760px) {
+  .masthead { padding: 10px 14px 8px; }
+  .masthead .logo { font-size: 30px; }
+  .masthead .tagline { font-size: 11.5px; }
+  .main { padding: 16px 10px 48px; }
+  /* tables swipe inside their card; the page itself never scrolls sideways */
+  .card { padding: 12px 12px; overflow-x: auto; }
+  th { padding: 6px 7px; }
+  td { padding: 7px 7px; font-size: 13.5px; }
+  .hide-m { display: none; }
+  .lbar { min-width: 104px; }
+  .lbar .val { width: 44px; }
+  .team-cell { white-space: normal; }
+  .badge { margin-left: 0; margin-top: 2px; }
+  .segment-title { font-size: 22px; }
+}
 
 footer {
   border-top: 1px solid var(--line); color: var(--ink-3); font-size: 12px;
