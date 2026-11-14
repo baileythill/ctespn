@@ -87,6 +87,7 @@ export function ComponentCenter({ data }: { data: LeagueData }) {
           <thead>
             <tr>
               <th>Team</th><th className="num">Luck</th>
+              <th className="num">xW</th>
               <th className="num">Schedule</th><th className="num">Close</th>
               <th className="num">Pts Agst</th><th className="num">Injury</th>
               <th className="num">Draft</th><th className="num">Close W-L</th>
@@ -99,6 +100,7 @@ export function ComponentCenter({ data }: { data: LeagueData }) {
               <tr key={t.teamId}>
                 <td className="team-cell">{t.name.trim()}</td>
                 <td className={"num " + valClass(t.luckIndex)}>{signed(t.luckIndex)}</td>
+                <td className="num">{fmt(t.xWins, 1)}</td>
                 <ZCell z={t.components.schedule} />
                 <ZCell z={t.components.close} />
                 <ZCell z={t.components.pa} />
