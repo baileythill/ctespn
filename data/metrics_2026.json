@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "league": "Fantasy Footballerz",
- "generatedWeekThrough": 9,
+ "generatedWeekThrough": 10,
  "closeGameMargin": 10.0,
  "weights": {
   "schedule": 0.35,
@@ -15,22 +15,29 @@
    "teamId": 13,
    "name": "Who's Your Daddy",
    "abbrev": "KAI",
-   "wins": 9,
+   "wins": 11,
    "losses": 9,
-   "h2hWins": 6,
+   "h2hWins": 7,
    "h2hLosses": 3,
-   "medianWins": 3,
-   "pointsFor": 1178.0,
-   "pointsAgainst": 1077.7,
-   "allPlayWins": 4.18,
-   "xWins": 7.18,
-   "winsVsExpected": 1.82,
+   "medianWins": 4,
+   "pointsFor": 1321.7,
+   "pointsAgainst": 1187.3,
+   "allPlayWins": 4.82,
+   "xWins": 8.82,
+   "winsVsExpected": 2.18,
    "closeWins": 1,
    "closeLosses": 1,
    "topScoreWeeks": 1,
-   "injuryPointsLost": 78.5,
-   "injuryPlayerWeeks": 9,
+   "injuryPointsLost": 107.3,
+   "injuryPlayerWeeks": 12,
    "injuryDetail": [
+    {
+     "week": 10,
+     "player": "T.J. Hockenson",
+     "slot": "BE",
+     "lostPpg": 10.7,
+     "type": "missed"
+    },
     {
      "week": 7,
      "player": "Jets D/ST",
@@ -60,6 +67,13 @@
      "type": "missed"
     },
     {
+     "week": 10,
+     "player": "Terry McLaurin",
+     "slot": "IR",
+     "lostPpg": 9.2,
+     "type": "missed"
+    },
+    {
      "week": 7,
      "player": "Brian Robinson Jr.",
      "slot": "BE",
@@ -81,6 +95,13 @@
      "type": "missed"
     },
     {
+     "week": 10,
+     "player": "Brian Robinson Jr.",
+     "slot": "IR",
+     "lostPpg": 8.8,
+     "type": "missed"
+    },
+    {
      "week": 6,
      "player": "Brian Robinson Jr.",
      "slot": "ST",
@@ -95,17 +116,21 @@
      "type": "mid-game"
     }
    ],
-   "regretPoints": 146.7,
-   "netRegretPoints": 40.8,
-   "lineupPoints": 1178.0,
-   "optimalPoints": 1311.3,
-   "efficiency": 0.898,
-   "benchPointsLeft": 133.3,
-   "waiverPoints": 150.3,
+   "regretPoints": 196.3,
+   "netRegretPoints": 53.8,
+   "lineupPoints": 1321.7,
+   "optimalPoints": 1462.7,
+   "efficiency": 0.904,
+   "benchPointsLeft": 141.0,
+   "waiverPoints": 184.0,
    "waiverDetail": [
     {
      "player": "Ryan Flournoy",
-     "points": 24.1
+     "points": 43.2
+    },
+    {
+     "player": "Chris Boswell",
+     "points": 25.6
     },
     {
      "player": "Makai Lemon",
@@ -116,10 +141,6 @@
      "points": 21.0
     },
     {
-     "player": "Chris Boswell",
-     "points": 20.1
-    },
-    {
      "player": "Bills D/ST",
      "points": 16.0
     },
@@ -128,25 +149,34 @@
      "points": 15.4
     }
    ],
-   "scoreStdev": 20.0,
+   "scoreStdev": 19.3,
    "regretDetail": [
     {
      "player": "Jayden Daniels",
      "pos": "QB",
      "droppedAfterWeek": 2,
-     "pointsSince": 100.7,
-     "gamesSince": 4,
-     "ppgSince": 25.2,
+     "pointsSince": 128.0,
+     "gamesSince": 5,
+     "ppgSince": 25.6,
      "netRegret": 32.8
     },
     {
      "player": "Brandon Aubrey",
      "pos": "K",
      "droppedAfterWeek": 6,
-     "pointsSince": 22.0,
-     "gamesSince": 2,
-     "ppgSince": 11.0,
-     "netRegret": 5.0
+     "pointsSince": 34.4,
+     "gamesSince": 3,
+     "ppgSince": 11.5,
+     "netRegret": 11.9
+    },
+    {
+     "player": "Bills D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 9,
+     "pointsSince": 10.0,
+     "gamesSince": 1,
+     "ppgSince": 10.0,
+     "netRegret": 6.0
     },
     {
      "player": "Broncos D/ST",
@@ -158,104 +188,491 @@
      "netRegret": 3.0
     }
    ],
-   "draftLuckPoints": 163.9,
+   "draftLuckPoints": 160.5,
    "draftDetail": [
-    {
-     "player": "Travis Hunter",
-     "pick": 92,
-     "adp": 154.3,
-     "expected": 49.0,
-     "actual": 19.3,
-     "residual": -29.7
-    },
     {
      "player": "Terry McLaurin",
      "pick": 44,
-     "adp": 112.3,
-     "expected": 70.1,
+     "adp": 113.2,
+     "expected": 76.4,
      "actual": 46.0,
-     "residual": -24.1
+     "residual": -30.4
+    },
+    {
+     "player": "Travis Hunter",
+     "pick": 92,
+     "adp": 155.0,
+     "expected": 53.2,
+     "actual": 23.2,
+     "residual": -30.0
     },
     {
      "player": "Brandon Aubrey",
      "pick": 101,
-     "adp": 91.8,
-     "expected": 86.1,
-     "actual": 81.4,
-     "residual": -4.7
+     "adp": 91.4,
+     "expected": 100.6,
+     "actual": 93.8,
+     "residual": -6.8
     },
     {
-     "player": "Jerry Jeudy",
-     "pick": 164,
-     "adp": 168.9,
-     "expected": 41.9,
-     "actual": 38.8,
-     "residual": -3.1
+     "player": "Trey McBride",
+     "pick": 20,
+     "adp": 20.6,
+     "expected": 177.3,
+     "actual": 171.5,
+     "residual": -5.8
     },
     {
      "player": "Broncos D/ST",
      "pick": 125,
-     "adp": 110.9,
-     "expected": 53.1,
+     "adp": 112.0,
+     "expected": 57.3,
      "actual": 56.0,
-     "residual": 2.9
+     "residual": -1.3
     },
     {
      "player": "Dak Prescott",
      "pick": 116,
-     "adp": 91.3,
-     "expected": 154.4,
-     "actual": 218.2,
-     "residual": 63.8
+     "adp": 89.5,
+     "expected": 172.9,
+     "actual": 265.1,
+     "residual": 92.2
     },
     {
      "player": "Michael Wilson",
      "pick": 77,
-     "adp": 117.2,
-     "expected": 68.7,
+     "adp": 135.3,
+     "expected": 66.4,
      "actual": 120.8,
-     "residual": 52.1
+     "residual": 54.4
     },
     {
-     "player": "Rhamondre Stevenson",
-     "pick": 53,
-     "adp": 106.8,
-     "expected": 79.3,
-     "actual": 113.7,
-     "residual": 34.4
+     "player": "Emmett Johnson",
+     "pick": 149,
+     "adp": 153.4,
+     "expected": 57.0,
+     "actual": 95.9,
+     "residual": 38.9
     }
    ],
    "components": {
-    "schedule": 1.47,
+    "schedule": 1.57,
     "close": 0.0,
-    "pa": 1.45,
-    "injury": 1.41,
-    "draft": 1.59
+    "pa": 1.59,
+    "injury": 1.33,
+    "draft": 1.55
    },
-   "luckIndex": 125.3
+   "luckIndex": 128.5
+  },
+  {
+   "teamId": 7,
+   "name": "Laporta Potty ",
+   "abbrev": "PA",
+   "wins": 15,
+   "losses": 5,
+   "h2hWins": 8,
+   "h2hLosses": 2,
+   "medianWins": 7,
+   "pointsFor": 1450.2,
+   "pointsAgainst": 1208.2,
+   "allPlayWins": 6.45,
+   "xWins": 13.45,
+   "winsVsExpected": 1.55,
+   "closeWins": 1,
+   "closeLosses": 0,
+   "topScoreWeeks": 1,
+   "injuryPointsLost": 312.1,
+   "injuryPlayerWeeks": 25,
+   "injuryDetail": [
+    {
+     "week": 3,
+     "player": "Jaxson Dart",
+     "slot": "IR",
+     "lostPpg": 17.9,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Jaxson Dart",
+     "slot": "IR",
+     "lostPpg": 17.9,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Jaxson Dart",
+     "slot": "IR",
+     "lostPpg": 17.9,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Jaxson Dart",
+     "slot": "IR",
+     "lostPpg": 17.9,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Jaxson Dart",
+     "slot": "--",
+     "lostPpg": 17.9,
+     "type": "post-drop"
+    },
+    {
+     "week": 8,
+     "player": "Jaxson Dart",
+     "slot": "--",
+     "lostPpg": 17.9,
+     "type": "post-drop"
+    },
+    {
+     "week": 9,
+     "player": "Jaxson Dart",
+     "slot": "--",
+     "lostPpg": 17.9,
+     "type": "post-drop"
+    },
+    {
+     "week": 10,
+     "player": "Jaxson Dart",
+     "slot": "--",
+     "lostPpg": 17.9,
+     "type": "post-drop"
+    },
+    {
+     "week": 9,
+     "player": "George Pickens",
+     "slot": "BE",
+     "lostPpg": 16.4,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "D'Andre Swift",
+     "slot": "ST",
+     "lostPpg": 15.7,
+     "type": "mid-game"
+    },
+    {
+     "week": 9,
+     "player": "Garrett Wilson",
+     "slot": "BE",
+     "lostPpg": 14.4,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "Aaron Rodgers",
+     "slot": "BE",
+     "lostPpg": 13.8,
+     "type": "mid-game"
+    },
+    {
+     "week": 8,
+     "player": "Dameon Pierce",
+     "slot": "IR",
+     "lostPpg": 13.4,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Dameon Pierce",
+     "slot": "IR",
+     "lostPpg": 13.4,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Romeo Doubs",
+     "slot": "IR",
+     "lostPpg": 9.7,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "Romeo Doubs",
+     "slot": "IR",
+     "lostPpg": 9.7,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Romeo Doubs",
+     "slot": "IR",
+     "lostPpg": 9.7,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Romeo Doubs",
+     "slot": "IR",
+     "lostPpg": 9.7,
+     "type": "missed"
+    },
+    {
+     "week": 1,
+     "player": "Tutu Atwell",
+     "slot": "BE",
+     "lostPpg": 6.2,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "James Conner",
+     "slot": "IR",
+     "lostPpg": 6.2,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "James Conner",
+     "slot": "IR",
+     "lostPpg": 6.2,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "James Conner",
+     "slot": "--",
+     "lostPpg": 6.2,
+     "type": "post-drop"
+    },
+    {
+     "week": 9,
+     "player": "James Conner",
+     "slot": "--",
+     "lostPpg": 6.2,
+     "type": "post-drop"
+    },
+    {
+     "week": 10,
+     "player": "James Conner",
+     "slot": "--",
+     "lostPpg": 6.2,
+     "type": "post-drop"
+    },
+    {
+     "week": 1,
+     "player": "TreVeyon Henderson",
+     "slot": "BE",
+     "lostPpg": 5.6,
+     "type": "missed"
+    }
+   ],
+   "regretPoints": 203.6,
+   "netRegretPoints": 115.2,
+   "lineupPoints": 1450.2,
+   "optimalPoints": 1594.8,
+   "efficiency": 0.909,
+   "benchPointsLeft": 144.6,
+   "waiverPoints": 178.3,
+   "waiverDetail": [
+    {
+     "player": "Chase McLaughlin",
+     "points": 74.8
+    },
+    {
+     "player": "Buccaneers D/ST",
+     "points": 26.0
+    },
+    {
+     "player": "Aaron Rodgers",
+     "points": 21.6
+    },
+    {
+     "player": "Dameon Pierce",
+     "points": 15.0
+    },
+    {
+     "player": "Omar Cooper Jr.",
+     "points": 13.8
+    },
+    {
+     "player": "Chiefs D/ST",
+     "points": 9.0
+    }
+   ],
+   "scoreStdev": 29.3,
+   "regretDetail": [
+    {
+     "player": "Jonah Coleman",
+     "pos": "RB",
+     "droppedAfterWeek": 1,
+     "pointsSince": 62.9,
+     "gamesSince": 4,
+     "ppgSince": 15.7,
+     "netRegret": 36.2
+    },
+    {
+     "player": "Texans D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 3,
+     "pointsSince": 30.0,
+     "gamesSince": 5,
+     "ppgSince": 6.0,
+     "netRegret": 18.0
+    },
+    {
+     "player": "Kaelon Black",
+     "pos": "RB",
+     "droppedAfterWeek": 5,
+     "pointsSince": 32.5,
+     "gamesSince": 3,
+     "ppgSince": 10.8,
+     "netRegret": 14.3
+    },
+    {
+     "player": "Antonio Williams",
+     "pos": "WR",
+     "droppedAfterWeek": 3,
+     "pointsSince": 28.1,
+     "gamesSince": 3,
+     "ppgSince": 9.4,
+     "netRegret": 14.1
+    },
+    {
+     "player": "Alvin Kamara",
+     "pos": "RB",
+     "droppedAfterWeek": 9,
+     "pointsSince": 16.4,
+     "gamesSince": 1,
+     "ppgSince": 16.4,
+     "netRegret": 12.2
+    },
+    {
+     "player": "Seth McGowan",
+     "pos": "RB",
+     "droppedAfterWeek": 9,
+     "pointsSince": 13.7,
+     "gamesSince": 1,
+     "ppgSince": 13.7,
+     "netRegret": 9.5
+    },
+    {
+     "player": "Pat Freiermuth",
+     "pos": "TE",
+     "droppedAfterWeek": 7,
+     "pointsSince": 11.6,
+     "gamesSince": 1,
+     "ppgSince": 11.6,
+     "netRegret": 5.1
+    },
+    {
+     "player": "Cowboys D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 5,
+     "pointsSince": 4.0,
+     "gamesSince": 1,
+     "ppgSince": 4.0,
+     "netRegret": 4.0
+    }
+   ],
+   "draftLuckPoints": -20.0,
+   "draftDetail": [
+    {
+     "player": "Jaxson Dart",
+     "pick": 117,
+     "adp": 126.7,
+     "expected": 141.1,
+     "actual": 35.9,
+     "residual": -105.2
+    },
+    {
+     "player": "Baker Mayfield",
+     "pick": 172,
+     "adp": 166.4,
+     "expected": 114.8,
+     "actual": 62.1,
+     "residual": -52.7
+    },
+    {
+     "player": "TreVeyon Henderson",
+     "pick": 69,
+     "adp": 125.0,
+     "expected": 77.6,
+     "actual": 33.8,
+     "residual": -43.8
+    },
+    {
+     "player": "Texans D/ST",
+     "pick": 124,
+     "adp": 102.1,
+     "expected": 68.1,
+     "actual": 46.0,
+     "residual": -22.1
+    },
+    {
+     "player": "Sam LaPorta",
+     "pick": 76,
+     "adp": 88.2,
+     "expected": 106.2,
+     "actual": 95.7,
+     "residual": -10.5
+    },
+    {
+     "player": "Jared Goff",
+     "pick": 165,
+     "adp": 126.7,
+     "expected": 147.8,
+     "actual": 224.2,
+     "residual": 76.4
+    },
+    {
+     "player": "Joe Burrow",
+     "pick": 52,
+     "adp": 28.8,
+     "expected": 260.9,
+     "actual": 308.2,
+     "residual": 47.4
+    },
+    {
+     "player": "Javonte Williams",
+     "pick": 21,
+     "adp": 33.4,
+     "expected": 138.7,
+     "actual": 167.3,
+     "residual": 28.6
+    }
+   ],
+   "components": {
+    "schedule": 1.11,
+    "close": 0.65,
+    "pa": 1.33,
+    "injury": -0.75,
+    "draft": -0.19
+   },
+   "luckIndex": 51.0
   },
   {
    "teamId": 6,
    "name": "How Does My Chuba Tate?",
    "abbrev": "TD$",
-   "wins": 12,
+   "wins": 14,
    "losses": 6,
-   "h2hWins": 6,
+   "h2hWins": 7,
    "h2hLosses": 3,
-   "medianWins": 6,
-   "pointsFor": 1332.6,
-   "pointsAgainst": 1109.3,
-   "allPlayWins": 5.73,
-   "xWins": 11.73,
-   "winsVsExpected": 0.27,
+   "medianWins": 7,
+   "pointsFor": 1489.3,
+   "pointsAgainst": 1229.3,
+   "allPlayWins": 6.45,
+   "xWins": 13.45,
+   "winsVsExpected": 0.55,
    "closeWins": 1,
    "closeLosses": 0,
    "topScoreWeeks": 2,
-   "injuryPointsLost": 129.7,
-   "injuryPlayerWeeks": 21,
+   "injuryPointsLost": 159.0,
+   "injuryPlayerWeeks": 25,
    "injuryDetail": [
     {
      "week": 8,
+     "player": "Carnell Tate",
+     "slot": "IR",
+     "lostPpg": 11.0,
+     "type": "missed"
+    },
+    {
+     "week": 10,
      "player": "Carnell Tate",
      "slot": "IR",
      "lostPpg": 11.0,
@@ -297,10 +714,17 @@
      "type": "missed"
     },
     {
+     "week": 10,
+     "player": "David Montgomery",
+     "slot": "BE",
+     "lostPpg": 9.1,
+     "type": "missed"
+    },
+    {
      "week": 9,
      "player": "Treylon Burks",
      "slot": "BE",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "missed"
     },
     {
@@ -353,6 +777,13 @@
      "type": "missed"
     },
     {
+     "week": 10,
+     "player": "Alec Pierce",
+     "slot": "IR",
+     "lostPpg": 6.1,
+     "type": "missed"
+    },
+    {
      "week": 3,
      "player": "Jayden Reed",
      "slot": "IR",
@@ -396,19 +827,26 @@
     },
     {
      "week": 9,
+     "player": "Jayden Reed",
+     "slot": "--",
+     "lostPpg": 3.2,
+     "type": "post-drop"
+    },
+    {
+     "week": 10,
      "player": "Jayden Reed",
      "slot": "--",
      "lostPpg": 3.2,
      "type": "post-drop"
     }
    ],
-   "regretPoints": 158.5,
-   "netRegretPoints": 50.6,
-   "lineupPoints": 1332.6,
-   "optimalPoints": 1434.4,
-   "efficiency": 0.929,
-   "benchPointsLeft": 101.8,
-   "waiverPoints": 288.2,
+   "regretPoints": 201.8,
+   "netRegretPoints": 52.5,
+   "lineupPoints": 1489.3,
+   "optimalPoints": 1606.3,
+   "efficiency": 0.927,
+   "benchPointsLeft": 117.0,
+   "waiverPoints": 331.1,
    "waiverDetail": [
     {
      "player": "Braelon Allen",
@@ -416,34 +854,34 @@
     },
     {
      "player": "Ollie Gordon II",
-     "points": 46.4
+     "points": 61.9
     },
     {
      "player": "Malik Washington",
      "points": 37.7
     },
     {
-     "player": "Kirk Cousins",
-     "points": 27.4
+     "player": "Brandon Aubrey",
+     "points": 34.4
     },
     {
-     "player": "Brandon Aubrey",
-     "points": 22.0
+     "player": "Kirk Cousins",
+     "points": 27.4
     },
     {
      "player": "Broncos D/ST",
      "points": 14.0
     }
    ],
-   "scoreStdev": 22.7,
+   "scoreStdev": 21.7,
    "regretDetail": [
     {
      "player": "Steelers D/ST",
      "pos": "D/ST",
      "droppedAfterWeek": 2,
-     "pointsSince": 42.0,
-     "gamesSince": 5,
-     "ppgSince": 8.4,
+     "pointsSince": 35.0,
+     "gamesSince": 6,
+     "ppgSince": 5.8,
      "netRegret": 24.0
     },
     {
@@ -465,13 +903,31 @@
      "netRegret": 7.0
     },
     {
-     "player": "Broncos D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 5,
-     "pointsSince": 10.0,
+     "player": "Brenton Strange",
+     "pos": "TE",
+     "droppedAfterWeek": 6,
+     "pointsSince": 20.6,
      "gamesSince": 3,
-     "ppgSince": 3.3,
-     "netRegret": 3.0
+     "ppgSince": 6.9,
+     "netRegret": 2.5
+    },
+    {
+     "player": "Texans D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 7,
+     "pointsSince": 17.0,
+     "gamesSince": 2,
+     "ppgSince": 8.5,
+     "netRegret": 1.0
+    },
+    {
+     "player": "Giants D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 9,
+     "pointsSince": 5.0,
+     "gamesSince": 1,
+     "ppgSince": 5.0,
+     "netRegret": 1.0
     },
     {
      "player": "Chris Godwin Jr.",
@@ -483,528 +939,176 @@
      "netRegret": 0.9
     },
     {
-     "player": "Texans D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 7,
-     "pointsSince": 12.0,
+     "player": "Tank Dell",
+     "pos": "WR",
+     "droppedAfterWeek": 8,
+     "pointsSince": 5.1,
      "gamesSince": 1,
-     "ppgSince": 12.0,
-     "netRegret": 0.0
-    },
-    {
-     "player": "Chad Ryland",
-     "pos": "K",
-     "droppedAfterWeek": 5,
-     "pointsSince": 13.7,
-     "gamesSince": 2,
-     "ppgSince": 6.9,
-     "netRegret": 0.0
-    },
-    {
-     "player": "Brenton Strange",
-     "pos": "TE",
-     "droppedAfterWeek": 6,
-     "pointsSince": 11.7,
-     "gamesSince": 2,
-     "ppgSince": 5.8,
-     "netRegret": 0.0
+     "ppgSince": 5.1,
+     "netRegret": 0.4
     }
    ],
-   "draftLuckPoints": -2.8,
+   "draftLuckPoints": -45.2,
    "draftDetail": [
     {
      "player": "Alec Pierce",
      "pick": 81,
-     "adp": 141.8,
-     "expected": 57.6,
+     "adp": 142.9,
+     "expected": 61.5,
      "actual": 12.2,
-     "residual": -45.4
+     "residual": -49.3
+    },
+    {
+     "player": "Josh Allen",
+     "pick": 16,
+     "adp": 13.1,
+     "expected": 309.6,
+     "actual": 264.2,
+     "residual": -45.3
     },
     {
      "player": "Jayden Reed",
      "pick": 112,
-     "adp": 158.5,
-     "expected": 48.1,
+     "adp": 159.1,
+     "expected": 50.4,
      "actual": 6.4,
-     "residual": -41.7
+     "residual": -44.0
     },
     {
      "player": "David Montgomery",
      "pick": 33,
      "adp": 117.2,
-     "expected": 74.6,
+     "expected": 85.1,
      "actual": 45.5,
-     "residual": -29.1
-    },
-    {
-     "player": "Josh Allen",
-     "pick": 16,
-     "adp": 12.9,
-     "expected": 262.5,
-     "actual": 238.9,
-     "residual": -23.6
+     "residual": -39.6
     },
     {
      "player": "Kenyon Sadiq",
      "pick": 153,
-     "adp": 168.3,
-     "expected": 65.2,
-     "actual": 54.8,
-     "residual": -10.4
+     "adp": 168.5,
+     "expected": 67.3,
+     "actual": 56.1,
+     "residual": -11.2
     },
     {
      "player": "Chuba Hubbard",
      "pick": 64,
-     "adp": 62.5,
-     "expected": 90.8,
-     "actual": 146.6,
-     "residual": 55.8
+     "adp": 58.0,
+     "expected": 104.8,
+     "actual": 180.8,
+     "residual": 76.0
     },
     {
      "player": "Tyler Allgeier",
      "pick": 136,
-     "adp": 154.9,
-     "expected": 50.9,
-     "actual": 90.7,
-     "residual": 39.8
+     "adp": 161.4,
+     "expected": 51.3,
+     "actual": 92.1,
+     "residual": 40.8
     },
     {
      "player": "Makai Lemon",
      "pick": 105,
-     "adp": 150.7,
-     "expected": 52.6,
+     "adp": 151.6,
+     "expected": 55.1,
      "actual": 73.7,
-     "residual": 21.1
+     "residual": 18.6
     }
    ],
    "components": {
-    "schedule": 0.22,
+    "schedule": 0.39,
     "close": 0.65,
-    "pa": 1.02,
-    "injury": 0.86,
-    "draft": -0.03
+    "pa": 1.08,
+    "injury": 0.8,
+    "draft": -0.44
    },
-   "luckIndex": 49.6
-  },
-  {
-   "teamId": 7,
-   "name": "Laporta Potty ",
-   "abbrev": "PA",
-   "wins": 13,
-   "losses": 5,
-   "h2hWins": 7,
-   "h2hLosses": 2,
-   "medianWins": 6,
-   "pointsFor": 1279.3,
-   "pointsAgainst": 1129.9,
-   "allPlayWins": 5.55,
-   "xWins": 11.55,
-   "winsVsExpected": 1.45,
-   "closeWins": 1,
-   "closeLosses": 0,
-   "topScoreWeeks": 1,
-   "injuryPointsLost": 267.2,
-   "injuryPlayerWeeks": 22,
-   "injuryDetail": [
-    {
-     "week": 3,
-     "player": "Jaxson Dart",
-     "slot": "IR",
-     "lostPpg": 17.9,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Jaxson Dart",
-     "slot": "IR",
-     "lostPpg": 17.9,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Jaxson Dart",
-     "slot": "IR",
-     "lostPpg": 17.9,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Jaxson Dart",
-     "slot": "IR",
-     "lostPpg": 17.9,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Jaxson Dart",
-     "slot": "--",
-     "lostPpg": 17.9,
-     "type": "post-drop"
-    },
-    {
-     "week": 8,
-     "player": "Jaxson Dart",
-     "slot": "--",
-     "lostPpg": 17.9,
-     "type": "post-drop"
-    },
-    {
-     "week": 9,
-     "player": "Jaxson Dart",
-     "slot": "--",
-     "lostPpg": 17.9,
-     "type": "post-drop"
-    },
-    {
-     "week": 9,
-     "player": "Garrett Wilson",
-     "slot": "BE",
-     "lostPpg": 14.2,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Aaron Rodgers",
-     "slot": "BE",
-     "lostPpg": 13.8,
-     "type": "mid-game"
-    },
-    {
-     "week": 8,
-     "player": "Dameon Pierce",
-     "slot": "IR",
-     "lostPpg": 13.4,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Dameon Pierce",
-     "slot": "IR",
-     "lostPpg": 13.4,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "George Pickens",
-     "slot": "BE",
-     "lostPpg": 13.0,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Romeo Doubs",
-     "slot": "IR",
-     "lostPpg": 9.7,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Romeo Doubs",
-     "slot": "IR",
-     "lostPpg": 9.7,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Romeo Doubs",
-     "slot": "IR",
-     "lostPpg": 9.7,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "George Pickens",
-     "slot": "ST",
-     "lostPpg": 7.1,
-     "type": "mid-game"
-    },
-    {
-     "week": 1,
-     "player": "Tutu Atwell",
-     "slot": "BE",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "James Conner",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "James Conner",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "James Conner",
-     "slot": "--",
-     "lostPpg": 6.4,
-     "type": "post-drop"
-    },
-    {
-     "week": 9,
-     "player": "James Conner",
-     "slot": "--",
-     "lostPpg": 6.4,
-     "type": "post-drop"
-    },
-    {
-     "week": 1,
-     "player": "TreVeyon Henderson",
-     "slot": "BE",
-     "lostPpg": 5.6,
-     "type": "missed"
-    }
-   ],
-   "regretPoints": 137.3,
-   "netRegretPoints": 78.1,
-   "lineupPoints": 1279.3,
-   "optimalPoints": 1423.1,
-   "efficiency": 0.899,
-   "benchPointsLeft": 143.8,
-   "waiverPoints": 165.2,
-   "waiverDetail": [
-    {
-     "player": "Chase McLaughlin",
-     "points": 74.8
-    },
-    {
-     "player": "Buccaneers D/ST",
-     "points": 26.0
-    },
-    {
-     "player": "Aaron Rodgers",
-     "points": 21.6
-    },
-    {
-     "player": "Dameon Pierce",
-     "points": 15.0
-    },
-    {
-     "player": "Omar Cooper Jr.",
-     "points": 13.8
-    },
-    {
-     "player": "Devin Singletary",
-     "points": 5.9
-    }
-   ],
-   "scoreStdev": 29.5,
-   "regretDetail": [
-    {
-     "player": "Jonah Coleman",
-     "pos": "RB",
-     "droppedAfterWeek": 1,
-     "pointsSince": 62.9,
-     "gamesSince": 4,
-     "ppgSince": 15.7,
-     "netRegret": 36.2
-    },
-    {
-     "player": "Texans D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 3,
-     "pointsSince": 25.0,
-     "gamesSince": 4,
-     "ppgSince": 6.2,
-     "netRegret": 18.0
-    },
-    {
-     "player": "Antonio Williams",
-     "pos": "WR",
-     "droppedAfterWeek": 3,
-     "pointsSince": 15.9,
-     "gamesSince": 2,
-     "ppgSince": 8.0,
-     "netRegret": 10.9
-    },
-    {
-     "player": "Pat Freiermuth",
-     "pos": "TE",
-     "droppedAfterWeek": 7,
-     "pointsSince": 11.6,
-     "gamesSince": 1,
-     "ppgSince": 11.6,
-     "netRegret": 5.1
-    },
-    {
-     "player": "Cowboys D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 5,
-     "pointsSince": 4.0,
-     "gamesSince": 1,
-     "ppgSince": 4.0,
-     "netRegret": 4.0
-    },
-    {
-     "player": "Kaelon Black",
-     "pos": "RB",
-     "droppedAfterWeek": 5,
-     "pointsSince": 17.9,
-     "gamesSince": 2,
-     "ppgSince": 8.9,
-     "netRegret": 3.9
-    }
-   ],
-   "draftLuckPoints": -26.6,
-   "draftDetail": [
-    {
-     "player": "Jaxson Dart",
-     "pick": 117,
-     "adp": 125.3,
-     "expected": 129.3,
-     "actual": 35.9,
-     "residual": -93.4
-    },
-    {
-     "player": "Baker Mayfield",
-     "pick": 172,
-     "adp": 165.2,
-     "expected": 108.5,
-     "actual": 62.1,
-     "residual": -46.4
-    },
-    {
-     "player": "TreVeyon Henderson",
-     "pick": 69,
-     "adp": 124.0,
-     "expected": 72.4,
-     "actual": 33.8,
-     "residual": -38.6
-    },
-    {
-     "player": "Texans D/ST",
-     "pick": 124,
-     "adp": 101.6,
-     "expected": 57.9,
-     "actual": 41.0,
-     "residual": -16.9
-    },
-    {
-     "player": "Mark Andrews",
-     "pick": 148,
-     "adp": 154.2,
-     "expected": 67.5,
-     "actual": 58.7,
-     "residual": -8.8
-    },
-    {
-     "player": "Jared Goff",
-     "pick": 165,
-     "adp": 123.1,
-     "expected": 134.6,
-     "actual": 196.7,
-     "residual": 62.1
-    },
-    {
-     "player": "Joe Burrow",
-     "pick": 52,
-     "adp": 31.6,
-     "expected": 224.0,
-     "actual": 263.0,
-     "residual": 39.0
-    },
-    {
-     "player": "Javonte Williams",
-     "pick": 21,
-     "adp": 33.5,
-     "expected": 123.9,
-     "actual": 159.6,
-     "residual": 35.7
-    }
-   ],
-   "components": {
-    "schedule": 1.17,
-    "close": 0.65,
-    "pa": 0.74,
-    "injury": -0.63,
-    "draft": -0.26
-   },
-   "luckIndex": 45.5
+   "luckIndex": 49.3
   },
   {
    "teamId": 3,
    "name": "Josh Jacobs is Innocent",
    "abbrev": "TS",
-   "wins": 8,
+   "wins": 10,
    "losses": 10,
-   "h2hWins": 4,
+   "h2hWins": 5,
    "h2hLosses": 5,
-   "medianWins": 4,
-   "pointsFor": 1152.2,
-   "pointsAgainst": 1205.2,
-   "allPlayWins": 3.82,
-   "xWins": 7.82,
+   "medianWins": 5,
+   "pointsFor": 1354.2,
+   "pointsAgainst": 1338.9,
+   "allPlayWins": 4.82,
+   "xWins": 9.82,
    "winsVsExpected": 0.18,
    "closeWins": 1,
    "closeLosses": 0,
-   "topScoreWeeks": 0,
-   "injuryPointsLost": 109.3,
-   "injuryPlayerWeeks": 14,
+   "topScoreWeeks": 1,
+   "injuryPointsLost": 128.6,
+   "injuryPlayerWeeks": 16,
    "injuryDetail": [
     {
-     "week": 6,
-     "player": "Rashee Rice",
-     "slot": "BE",
-     "lostPpg": 11.0,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Rashee Rice",
-     "slot": "BE",
-     "lostPpg": 11.0,
-     "type": "missed"
-    },
-    {
      "week": 5,
      "player": "DJ Moore",
      "slot": "ST",
-     "lostPpg": 9.9,
+     "lostPpg": 11.3,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Rashee Rice",
+     "slot": "BE",
+     "lostPpg": 11.3,
      "type": "missed"
     },
     {
      "week": 6,
      "player": "DJ Moore",
      "slot": "ST",
-     "lostPpg": 9.9,
+     "lostPpg": 11.3,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Rashee Rice",
+     "slot": "BE",
+     "lostPpg": 11.3,
      "type": "missed"
     },
     {
      "week": 5,
      "player": "Mack Hollins",
      "slot": "IR",
-     "lostPpg": 8.3,
+     "lostPpg": 9.1,
      "type": "missed"
     },
     {
      "week": 6,
      "player": "Mack Hollins",
      "slot": "IR",
-     "lostPpg": 8.3,
+     "lostPpg": 9.1,
      "type": "missed"
     },
     {
      "week": 7,
      "player": "Mack Hollins",
      "slot": "IR",
-     "lostPpg": 8.3,
+     "lostPpg": 9.1,
      "type": "missed"
     },
     {
      "week": 8,
      "player": "Mack Hollins",
      "slot": "IR",
-     "lostPpg": 8.3,
+     "lostPpg": 9.1,
      "type": "missed"
     },
     {
      "week": 5,
+     "player": "Jordan Addison",
+     "slot": "ST",
+     "lostPpg": 7.7,
+     "type": "missed"
+    },
+    {
+     "week": 10,
      "player": "Jordan Addison",
      "slot": "ST",
      "lostPpg": 7.7,
@@ -1044,23 +1148,30 @@
      "slot": "IR",
      "lostPpg": 5.3,
      "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Michael Pittman Jr.",
+     "slot": "IR",
+     "lostPpg": 5.3,
+     "type": "missed"
     }
    ],
-   "regretPoints": 48.3,
-   "netRegretPoints": 15.4,
-   "lineupPoints": 1152.2,
-   "optimalPoints": 1258.8,
-   "efficiency": 0.915,
-   "benchPointsLeft": 106.6,
-   "waiverPoints": 140.5,
+   "regretPoints": 71.3,
+   "netRegretPoints": 29.7,
+   "lineupPoints": 1354.2,
+   "optimalPoints": 1472.0,
+   "efficiency": 0.92,
+   "benchPointsLeft": 117.7,
+   "waiverPoints": 149.2,
    "waiverDetail": [
+    {
+     "player": "Matt Gay",
+     "points": 45.8
+    },
     {
      "player": "Keenan Allen",
      "points": 42.6
-    },
-    {
-     "player": "Matt Gay",
-     "points": 37.1
     },
     {
      "player": "Will Reichard",
@@ -1071,8 +1182,26 @@
      "points": 23.9
     }
    ],
-   "scoreStdev": 23.1,
+   "scoreStdev": 31.2,
    "regretDetail": [
+    {
+     "player": "Will Reichard",
+     "pos": "K",
+     "droppedAfterWeek": 5,
+     "pointsSince": 33.9,
+     "gamesSince": 4,
+     "ppgSince": 8.5,
+     "netRegret": 9.9
+    },
+    {
+     "player": "Mack Hollins",
+     "pos": "WR",
+     "droppedAfterWeek": 8,
+     "pointsSince": 9.8,
+     "gamesSince": 1,
+     "ppgSince": 9.8,
+     "netRegret": 9.8
+    },
     {
      "player": "Jake Bates",
      "pos": "K",
@@ -1083,727 +1212,123 @@
      "netRegret": 8.4
     },
     {
-     "player": "Will Reichard",
-     "pos": "K",
-     "droppedAfterWeek": 5,
-     "pointsSince": 22.3,
-     "gamesSince": 3,
-     "ppgSince": 7.4,
-     "netRegret": 7.0
+     "player": "Quentin Johnston",
+     "pos": "WR",
+     "droppedAfterWeek": 3,
+     "pointsSince": 1.6,
+     "gamesSince": 1,
+     "ppgSince": 1.6,
+     "netRegret": 1.6
     }
    ],
-   "draftLuckPoints": -27.1,
+   "draftLuckPoints": 58.7,
    "draftDetail": [
-    {
-     "player": "Rashee Rice",
-     "pick": 22,
-     "adp": 44.5,
-     "expected": 113.7,
-     "actual": 66.2,
-     "residual": -47.5
-    },
     {
      "player": "Michael Pittman Jr.",
      "pick": 51,
-     "adp": 129.7,
-     "expected": 63.4,
+     "adp": 130.6,
+     "expected": 70.4,
      "actual": 15.9,
-     "residual": -47.5
+     "residual": -54.5
     },
     {
      "player": "Josh Jacobs",
      "pick": 27,
-     "adp": 91.3,
-     "expected": 81.9,
+     "adp": 109.1,
+     "expected": 90.8,
      "actual": 43.8,
-     "residual": -38.1
+     "residual": -47.0
+    },
+    {
+     "player": "Rashee Rice",
+     "pick": 22,
+     "adp": 46.4,
+     "expected": 124.4,
+     "actual": 79.4,
+     "residual": -45.0
     },
     {
      "player": "DJ Moore",
      "pick": 46,
-     "adp": 78.5,
-     "expected": 84.1,
-     "actual": 59.5,
-     "residual": -24.6
+     "adp": 77.2,
+     "expected": 94.1,
+     "actual": 78.9,
+     "residual": -15.2
     },
     {
      "player": "Jordan Addison",
      "pick": 99,
-     "adp": 137.1,
-     "expected": 59.8,
+     "adp": 139.7,
+     "expected": 63.9,
      "actual": 53.9,
-     "residual": -5.9
+     "residual": -10.0
     },
     {
      "player": "Tony Pollard",
      "pick": 70,
-     "adp": 86.6,
-     "expected": 84.7,
-     "actual": 116.5,
-     "residual": 31.8
+     "adp": 83.6,
+     "expected": 94.0,
+     "actual": 140.4,
+     "residual": 46.4
     },
     {
      "player": "Blake Corum",
      "pick": 94,
-     "adp": 128.6,
-     "expected": 70.3,
-     "actual": 94.6,
-     "residual": 24.3
+     "adp": 120.6,
+     "expected": 79.9,
+     "actual": 115.5,
+     "residual": 35.6
     },
     {
-     "player": "Khalil Shakir",
-     "pick": 118,
-     "adp": 142.7,
-     "expected": 55.5,
-     "actual": 76.2,
-     "residual": 20.7
+     "player": "Brock Purdy",
+     "pick": 123,
+     "adp": 54.9,
+     "expected": 232.4,
+     "actual": 261.6,
+     "residual": 29.3
     }
    ],
    "components": {
-    "schedule": 0.15,
+    "schedule": 0.13,
     "close": 0.65,
-    "pa": -0.29,
-    "injury": 1.08,
-    "draft": -0.26
+    "pa": -0.25,
+    "injury": 1.11,
+    "draft": 0.57
    },
-   "luckIndex": 28.2
-  },
-  {
-   "teamId": 11,
-   "name": "Dall Stars",
-   "abbrev": "DALL",
-   "wins": 10,
-   "losses": 8,
-   "h2hWins": 5,
-   "h2hLosses": 4,
-   "medianWins": 5,
-   "pointsFor": 1153.3,
-   "pointsAgainst": 1221.1,
-   "allPlayWins": 4.27,
-   "xWins": 9.27,
-   "winsVsExpected": 0.73,
-   "closeWins": 1,
-   "closeLosses": 0,
-   "topScoreWeeks": 0,
-   "injuryPointsLost": 146.1,
-   "injuryPlayerWeeks": 19,
-   "injuryDetail": [
-    {
-     "week": 2,
-     "player": "Kyler Murray",
-     "slot": "BE",
-     "lostPpg": 15.1,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Kyler Murray",
-     "slot": "BE",
-     "lostPpg": 15.1,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Emeka Egbuka",
-     "slot": "ST",
-     "lostPpg": 11.1,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Emeka Egbuka",
-     "slot": "BE",
-     "lostPpg": 11.1,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Rachaad White",
-     "slot": "BE",
-     "lostPpg": 10.0,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Ravens D/ST",
-     "slot": "ST",
-     "lostPpg": 9.0,
-     "type": "mid-game"
-    },
-    {
-     "week": 2,
-     "player": "De'Zhaun Stribling",
-     "slot": "BE",
-     "lostPpg": 6.7,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "De'Zhaun Stribling",
-     "slot": "BE",
-     "lostPpg": 6.7,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "De'Zhaun Stribling",
-     "slot": "IR",
-     "lostPpg": 6.7,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "De'Zhaun Stribling",
-     "slot": "IR",
-     "lostPpg": 6.7,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "De'Zhaun Stribling",
-     "slot": "IR",
-     "lostPpg": 6.7,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "De'Zhaun Stribling",
-     "slot": "IR",
-     "lostPpg": 6.7,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "De'Zhaun Stribling",
-     "slot": "IR",
-     "lostPpg": 6.7,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Jonathon Brooks",
-     "slot": "ST",
-     "lostPpg": 4.7,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Jonathon Brooks",
-     "slot": "IR",
-     "lostPpg": 4.7,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Jonathon Brooks",
-     "slot": "IR",
-     "lostPpg": 4.7,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Jonathon Brooks",
-     "slot": "IR",
-     "lostPpg": 4.7,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Jonathon Brooks",
-     "slot": "IR",
-     "lostPpg": 4.7,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Jonathon Brooks",
-     "slot": "IR",
-     "lostPpg": 4.7,
-     "type": "missed"
-    }
-   ],
-   "regretPoints": 2.8,
-   "netRegretPoints": 0.0,
-   "lineupPoints": 1153.3,
-   "optimalPoints": 1267.8,
-   "efficiency": 0.91,
-   "benchPointsLeft": 114.5,
-   "waiverPoints": 61.3,
-   "waiverDetail": [
-    {
-     "player": "Jaguars D/ST",
-     "points": 33.0
-    },
-    {
-     "player": "Chad Ryland",
-     "points": 10.9
-    },
-    {
-     "player": "Antonio Williams",
-     "points": 10.4
-    },
-    {
-     "player": "Hunter Henry",
-     "points": 6.0
-    },
-    {
-     "player": "MarShawn Lloyd",
-     "points": 1.0
-    }
-   ],
-   "scoreStdev": 19.2,
-   "regretDetail": [
-    {
-     "player": "Chad Ryland",
-     "pos": "K",
-     "droppedAfterWeek": 8,
-     "pointsSince": 2.8,
-     "gamesSince": 1,
-     "ppgSince": 2.8,
-     "netRegret": 0.0
-    }
-   ],
-   "draftLuckPoints": -88.8,
-   "draftDetail": [
-    {
-     "player": "Jonathon Brooks",
-     "pick": 67,
-     "adp": 137.0,
-     "expected": 61.1,
-     "actual": 9.3,
-     "residual": -51.8
-    },
-    {
-     "player": "De'Zhaun Stribling",
-     "pick": 102,
-     "adp": 160.6,
-     "expected": 46.5,
-     "actual": 0.0,
-     "residual": -46.5
-    },
-    {
-     "player": "Jalen McMillan",
-     "pick": 139,
-     "adp": 168.0,
-     "expected": 43.3,
-     "actual": 0.0,
-     "residual": -43.3
-    },
-    {
-     "player": "Kyler Murray",
-     "pick": 126,
-     "adp": 155.0,
-     "expected": 112.1,
-     "actual": 90.8,
-     "residual": -21.3
-    },
-    {
-     "player": "Drake London",
-     "pick": 19,
-     "adp": 27.4,
-     "expected": 137.1,
-     "actual": 121.6,
-     "residual": -15.5
-    },
-    {
-     "player": "Kyren Williams",
-     "pick": 30,
-     "adp": 35.8,
-     "expected": 111.6,
-     "actual": 159.1,
-     "residual": 47.5
-    },
-    {
-     "player": "Ka'imi Fairbairn",
-     "pick": 150,
-     "adp": 120.7,
-     "expected": 75.6,
-     "actual": 98.4,
-     "residual": 22.8
-    },
-    {
-     "player": "Woody Marks",
-     "pick": 115,
-     "adp": 152.3,
-     "expected": 52.3,
-     "actual": 70.9,
-     "residual": 18.6
-    }
-   ],
-   "components": {
-    "schedule": 0.59,
-    "close": 0.65,
-    "pa": -0.51,
-    "injury": 0.68,
-    "draft": -0.86
-   },
-   "luckIndex": 23.4
-  },
-  {
-   "teamId": 14,
-   "name": "Likely going to Butker",
-   "abbrev": "LGTB",
-   "wins": 8,
-   "losses": 10,
-   "h2hWins": 4,
-   "h2hLosses": 5,
-   "medianWins": 4,
-   "pointsFor": 1087.6,
-   "pointsAgainst": 1107.0,
-   "allPlayWins": 3.73,
-   "xWins": 7.73,
-   "winsVsExpected": 0.27,
-   "closeWins": 1,
-   "closeLosses": 1,
-   "topScoreWeeks": 1,
-   "injuryPointsLost": 292.3,
-   "injuryPlayerWeeks": 26,
-   "injuryDetail": [
-    {
-     "week": 2,
-     "player": "Puka Nacua",
-     "slot": "ST",
-     "lostPpg": 24.8,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Puka Nacua",
-     "slot": "IR",
-     "lostPpg": 24.8,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Caleb Williams",
-     "slot": "BE",
-     "lostPpg": 22.8,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Caleb Williams",
-     "slot": "IR",
-     "lostPpg": 22.8,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Caleb Williams",
-     "slot": "IR",
-     "lostPpg": 22.8,
-     "type": "missed"
-    },
-    {
-     "week": 2,
-     "player": "Nico Collins",
-     "slot": "ST",
-     "lostPpg": 15.3,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Nico Collins",
-     "slot": "IR",
-     "lostPpg": 15.3,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Quinshon Judkins",
-     "slot": "ST",
-     "lostPpg": 11.5,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Cam Skattebo",
-     "slot": "BE",
-     "lostPpg": 10.1,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Rico Dowdle",
-     "slot": "BE",
-     "lostPpg": 8.9,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Rico Dowdle",
-     "slot": "BE",
-     "lostPpg": 8.9,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Rico Dowdle",
-     "slot": "BE",
-     "lostPpg": 8.9,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Dontayvion Wicks",
-     "slot": "ST",
-     "lostPpg": 8.9,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Dontayvion Wicks",
-     "slot": "--",
-     "lostPpg": 8.9,
-     "type": "post-drop"
-    },
-    {
-     "week": 9,
-     "player": "Dontayvion Wicks",
-     "slot": "--",
-     "lostPpg": 8.9,
-     "type": "post-drop"
-    },
-    {
-     "week": 5,
-     "player": "Ladd McConkey",
-     "slot": "BE",
-     "lostPpg": 8.6,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Ladd McConkey",
-     "slot": "ST",
-     "lostPpg": 8.6,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Roman Wilson",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Roman Wilson",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Roman Wilson",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "TreVeyon Henderson",
-     "slot": "BE",
-     "lostPpg": 5.6,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "TreVeyon Henderson",
-     "slot": "BE",
-     "lostPpg": 5.6,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Dontayvion Wicks",
-     "slot": "ST",
-     "lostPpg": 5.4,
-     "type": "mid-game"
-    },
-    {
-     "week": 5,
-     "player": "Jadarian Price",
-     "slot": "IR",
-     "lostPpg": 5.2,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Jadarian Price",
-     "slot": "IR",
-     "lostPpg": 5.2,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Jadarian Price",
-     "slot": "IR",
-     "lostPpg": 5.2,
-     "type": "missed"
-    }
-   ],
-   "regretPoints": 29.4,
-   "netRegretPoints": 8.0,
-   "lineupPoints": 1087.6,
-   "optimalPoints": 1268.8,
-   "efficiency": 0.857,
-   "benchPointsLeft": 181.2,
-   "waiverPoints": 108.9,
-   "waiverDetail": [
-    {
-     "player": "Tyler Shough",
-     "points": 54.2
-    },
-    {
-     "player": "Spencer Shrader",
-     "points": 17.6
-    },
-    {
-     "player": "Pat Freiermuth",
-     "points": 11.6
-    },
-    {
-     "player": "Jake Bates",
-     "points": 10.6
-    },
-    {
-     "player": "Giants D/ST",
-     "points": 9.0
-    },
-    {
-     "player": "Broncos D/ST",
-     "points": 6.0
-    }
-   ],
-   "scoreStdev": 29.9,
-   "regretDetail": [
-    {
-     "player": "Giants D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 3,
-     "pointsSince": 14.0,
-     "gamesSince": 1,
-     "ppgSince": 14.0,
-     "netRegret": 8.0
-    },
-    {
-     "player": "Jake Bates",
-     "pos": "K",
-     "droppedAfterWeek": 5,
-     "pointsSince": 15.4,
-     "gamesSince": 1,
-     "ppgSince": 15.4,
-     "netRegret": 0.0
-    }
-   ],
-   "draftLuckPoints": 44.0,
-   "draftDetail": [
-    {
-     "player": "Jadarian Price",
-     "pick": 47,
-     "adp": 117.1,
-     "expected": 76.9,
-     "actual": 31.5,
-     "residual": -45.4
-    },
-    {
-     "player": "Puka Nacua",
-     "pick": 2,
-     "adp": 10.8,
-     "expected": 200.9,
-     "actual": 173.6,
-     "residual": -27.3
-    },
-    {
-     "player": "Nico Collins",
-     "pick": 23,
-     "adp": 35.5,
-     "expected": 118.4,
-     "actual": 91.6,
-     "residual": -26.8
-    },
-    {
-     "player": "Caleb Williams",
-     "pick": 95,
-     "adp": 81.8,
-     "expected": 163.0,
-     "actual": 136.8,
-     "residual": -26.2
-    },
-    {
-     "player": "Rico Dowdle",
-     "pick": 50,
-     "adp": 135.1,
-     "expected": 62.8,
-     "actual": 44.6,
-     "residual": -18.2
-    },
-    {
-     "player": "Tre Tucker",
-     "pick": 143,
-     "adp": 159.0,
-     "expected": 47.3,
-     "actual": 109.3,
-     "residual": 62.0
-    },
-    {
-     "player": "Isaiah Likely",
-     "pick": 119,
-     "adp": 72.7,
-     "expected": 106.8,
-     "actual": 156.5,
-     "residual": 49.7
-    },
-    {
-     "player": "D'Andre Swift",
-     "pick": 26,
-     "adp": 45.5,
-     "expected": 106.6,
-     "actual": 153.8,
-     "residual": 47.2
-    }
-   ],
-   "components": {
-    "schedule": 0.22,
-    "close": 0.0,
-    "pa": 1.05,
-    "injury": -0.9,
-    "draft": 0.43
-   },
-   "luckIndex": 11.9
+   "luckIndex": 41.4
   },
   {
    "teamId": 10,
    "name": "SBhayshul Education ",
    "abbrev": "HERB",
-   "wins": 10,
-   "losses": 8,
-   "h2hWins": 5,
+   "wins": 11,
+   "losses": 9,
+   "h2hWins": 6,
    "h2hLosses": 4,
    "medianWins": 5,
-   "pointsFor": 1178.0,
-   "pointsAgainst": 1252.8,
-   "allPlayWins": 4.55,
-   "xWins": 9.55,
-   "winsVsExpected": 0.45,
+   "pointsFor": 1305.5,
+   "pointsAgainst": 1353.6,
+   "allPlayWins": 5.0,
+   "xWins": 10.0,
+   "winsVsExpected": 1.0,
    "closeWins": 3,
    "closeLosses": 0,
    "topScoreWeeks": 0,
-   "injuryPointsLost": 264.5,
-   "injuryPlayerWeeks": 30,
+   "injuryPointsLost": 317.7,
+   "injuryPlayerWeeks": 32,
    "injuryDetail": [
     {
      "week": 2,
      "player": "Zay Flowers",
      "slot": "IR",
-     "lostPpg": 15.9,
+     "lostPpg": 15.4,
      "type": "missed"
     },
     {
      "week": 4,
      "player": "Justin Jefferson",
      "slot": "IR",
-     "lostPpg": 13.6,
+     "lostPpg": 14.0,
      "type": "missed"
     },
     {
@@ -1814,6 +1339,55 @@
      "type": "missed"
     },
     {
+     "week": 1,
+     "player": "Jordyn Tyson",
+     "slot": "IR",
+     "lostPpg": 12.0,
+     "type": "missed"
+    },
+    {
+     "week": 2,
+     "player": "Jordyn Tyson",
+     "slot": "IR",
+     "lostPpg": 12.0,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Jordyn Tyson",
+     "slot": "IR",
+     "lostPpg": 12.0,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Jordyn Tyson",
+     "slot": "IR",
+     "lostPpg": 12.0,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Jordyn Tyson",
+     "slot": "IR",
+     "lostPpg": 12.0,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Jordyn Tyson",
+     "slot": "IR",
+     "lostPpg": 12.0,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Jordyn Tyson",
+     "slot": "IR",
+     "lostPpg": 12.0,
+     "type": "missed"
+    },
+    {
      "week": 4,
      "player": "De'Von Achane",
      "slot": "--",
@@ -1850,6 +1424,13 @@
     },
     {
      "week": 9,
+     "player": "De'Von Achane",
+     "slot": "--",
+     "lostPpg": 11.4,
+     "type": "post-drop"
+    },
+    {
+     "week": 10,
      "player": "De'Von Achane",
      "slot": "--",
      "lostPpg": 11.4,
@@ -1884,148 +1465,106 @@
      "type": "mid-game"
     },
     {
-     "week": 7,
-     "player": "Chiefs D/ST",
-     "slot": "ST",
-     "lostPpg": 6.8,
-     "type": "mid-game"
-    },
-    {
-     "week": 1,
-     "player": "Jordyn Tyson",
-     "slot": "IR",
-     "lostPpg": 6.6,
-     "type": "missed"
-    },
-    {
-     "week": 2,
-     "player": "Jordyn Tyson",
-     "slot": "IR",
-     "lostPpg": 6.6,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Jordyn Tyson",
-     "slot": "IR",
-     "lostPpg": 6.6,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Jordyn Tyson",
-     "slot": "IR",
-     "lostPpg": 6.6,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Jordyn Tyson",
-     "slot": "IR",
-     "lostPpg": 6.6,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Jordyn Tyson",
-     "slot": "IR",
-     "lostPpg": 6.6,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Jordyn Tyson",
-     "slot": "IR",
-     "lostPpg": 6.6,
-     "type": "missed"
-    },
-    {
      "week": 4,
      "player": "Tyreek Hill",
      "slot": "BE",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "missed"
     },
     {
      "week": 5,
      "player": "Tyreek Hill",
      "slot": "IR",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "missed"
     },
     {
      "week": 9,
      "player": "Terrance Ferguson",
      "slot": "IR",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Terrance Ferguson",
+     "slot": "IR",
+     "lostPpg": 6.2,
      "type": "missed"
     },
     {
      "week": 4,
      "player": "Tank Bigsby",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 5,
      "player": "Tank Bigsby",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 6,
      "player": "Tank Bigsby",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 7,
      "player": "Tank Bigsby",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 8,
      "player": "Tank Bigsby",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 9,
      "player": "Tank Bigsby",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
+     "type": "post-drop"
+    },
+    {
+     "week": 10,
+     "player": "Tank Bigsby",
+     "slot": "--",
+     "lostPpg": 6.2,
      "type": "post-drop"
     }
    ],
-   "regretPoints": 256.6,
-   "netRegretPoints": 109.4,
-   "lineupPoints": 1178.0,
-   "optimalPoints": 1316.2,
-   "efficiency": 0.895,
-   "benchPointsLeft": 138.2,
-   "waiverPoints": 263.2,
+   "regretPoints": 318.6,
+   "netRegretPoints": 132.1,
+   "lineupPoints": 1305.5,
+   "optimalPoints": 1475.0,
+   "efficiency": 0.885,
+   "benchPointsLeft": 169.5,
+   "waiverPoints": 299.8,
    "waiverDetail": [
     {
      "player": "Jordan Love",
-     "points": 89.4
+     "points": 103.4
     },
     {
      "player": "Jayden Daniels",
      "points": 72.7
     },
     {
-     "player": "Germie Bernard",
-     "points": 31.4
+     "player": "Will Reichard",
+     "points": 33.9
     },
     {
-     "player": "Will Reichard",
-     "points": 22.3
+     "player": "Germie Bernard",
+     "points": 32.4
     },
     {
      "player": "Texans D/ST",
@@ -2036,25 +1575,25 @@
      "points": 10.0
     }
    ],
-   "scoreStdev": 16.3,
+   "scoreStdev": 15.5,
    "regretDetail": [
     {
      "player": "C.J. Stroud",
      "pos": "QB",
      "droppedAfterWeek": 3,
-     "pointsSince": 126.4,
-     "gamesSince": 4,
-     "ppgSince": 31.6,
-     "netRegret": 41.4
+     "pointsSince": 153.9,
+     "gamesSince": 5,
+     "ppgSince": 30.8,
+     "netRegret": 55.0
     },
     {
      "player": "Caleb Douglas",
      "pos": "WR",
      "droppedAfterWeek": 2,
-     "pointsSince": 21.3,
-     "gamesSince": 2,
-     "ppgSince": 10.7,
-     "netRegret": 16.0
+     "pointsSince": 31.4,
+     "gamesSince": 3,
+     "ppgSince": 10.5,
+     "netRegret": 25.1
     },
     {
      "player": "Jonah Coleman",
@@ -2069,18 +1608,18 @@
      "player": "Texans D/ST",
      "pos": "D/ST",
      "droppedAfterWeek": 5,
-     "pointsSince": 10.0,
-     "gamesSince": 3,
-     "ppgSince": 3.3,
+     "pointsSince": 15.0,
+     "gamesSince": 4,
+     "ppgSince": 3.8,
      "netRegret": 10.0
     },
     {
      "player": "Packers D/ST",
      "pos": "D/ST",
      "droppedAfterWeek": 4,
-     "pointsSince": 11.0,
-     "gamesSince": 1,
-     "ppgSince": 11.0,
+     "pointsSince": 15.0,
+     "gamesSince": 2,
+     "ppgSince": 7.5,
      "netRegret": 8.0
     },
     {
@@ -2105,107 +1644,1718 @@
      "player": "Chig Okonkwo",
      "pos": "TE",
      "droppedAfterWeek": 8,
-     "pointsSince": 11.7,
-     "gamesSince": 1,
-     "ppgSince": 11.7,
+     "pointsSince": 18.1,
+     "gamesSince": 2,
+     "ppgSince": 9.1,
      "netRegret": 5.9
     }
    ],
-   "draftLuckPoints": -68.8,
+   "draftLuckPoints": -78.1,
    "draftDetail": [
     {
      "player": "De'Von Achane",
      "pick": 13,
-     "adp": 52.6,
-     "expected": 102.0,
+     "adp": 54.7,
+     "expected": 109.1,
      "actual": 24.6,
-     "residual": -77.4
+     "residual": -84.5
     },
     {
      "player": "Justin Jefferson",
      "pick": 12,
-     "adp": 14.7,
-     "expected": 145.9,
-     "actual": 95.2,
-     "residual": -50.7
+     "adp": 13.9,
+     "expected": 172.3,
+     "actual": 111.6,
+     "residual": -60.7
     },
     {
      "player": "Jordyn Tyson",
      "pick": 132,
-     "adp": 163.9,
-     "expected": 44.1,
-     "actual": 5.0,
-     "residual": -39.1
-    },
-    {
-     "player": "Justin Herbert",
-     "pick": 84,
-     "adp": 133.0,
-     "expected": 120.0,
-     "actual": 97.5,
-     "residual": -22.5
+     "adp": 157.0,
+     "expected": 52.2,
+     "actual": 24.0,
+     "residual": -28.2
     },
     {
      "player": "Jordan Mason",
      "pick": 108,
-     "adp": 161.1,
-     "expected": 48.4,
-     "actual": 26.9,
-     "residual": -21.5
+     "adp": 159.9,
+     "expected": 52.6,
+     "actual": 32.8,
+     "residual": -19.8
+    },
+    {
+     "player": "Justin Herbert",
+     "pick": 84,
+     "adp": 133.6,
+     "expected": 129.4,
+     "actual": 115.1,
+     "residual": -14.3
     },
     {
      "player": "Christian Watson",
      "pick": 60,
-     "adp": 48.7,
-     "expected": 105.8,
-     "actual": 176.9,
-     "residual": 71.1
+     "adp": 46.4,
+     "expected": 119.8,
+     "actual": 183.6,
+     "residual": 63.8
     },
     {
      "player": "Zay Flowers",
      "pick": 36,
-     "adp": 49.5,
-     "expected": 102.3,
-     "actual": 127.5,
-     "residual": 25.2
+     "adp": 50.8,
+     "expected": 111.8,
+     "actual": 138.9,
+     "residual": 27.1
     },
     {
      "player": "Evan McPherson",
      "pick": 180,
-     "adp": 159.3,
-     "expected": 64.1,
-     "actual": 79.6,
-     "residual": 15.5
+     "adp": 158.3,
+     "expected": 68.2,
+     "actual": 86.0,
+     "residual": 17.8
     }
    ],
    "components": {
-    "schedule": 0.37,
+    "schedule": 0.72,
     "close": 1.96,
-    "pa": -0.94,
-    "injury": -0.6,
-    "draft": -0.67
+    "pa": -0.42,
+    "injury": -0.8,
+    "draft": -0.75
    },
-   "luckIndex": 6.2
+   "luckIndex": 21.0
+  },
+  {
+   "teamId": 11,
+   "name": "Dall Stars",
+   "abbrev": "DALL",
+   "wins": 10,
+   "losses": 10,
+   "h2hWins": 5,
+   "h2hLosses": 5,
+   "medianWins": 5,
+   "pointsFor": 1254.1,
+   "pointsAgainst": 1348.6,
+   "allPlayWins": 4.36,
+   "xWins": 9.36,
+   "winsVsExpected": 0.64,
+   "closeWins": 1,
+   "closeLosses": 0,
+   "topScoreWeeks": 0,
+   "injuryPointsLost": 161.4,
+   "injuryPlayerWeeks": 21,
+   "injuryDetail": [
+    {
+     "week": 2,
+     "player": "Kyler Murray",
+     "slot": "BE",
+     "lostPpg": 15.1,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Kyler Murray",
+     "slot": "BE",
+     "lostPpg": 15.1,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Kyler Murray",
+     "slot": "BE",
+     "lostPpg": 15.1,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Emeka Egbuka",
+     "slot": "ST",
+     "lostPpg": 11.1,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "Emeka Egbuka",
+     "slot": "BE",
+     "lostPpg": 11.1,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Rachaad White",
+     "slot": "BE",
+     "lostPpg": 9.5,
+     "type": "missed"
+    },
+    {
+     "week": 2,
+     "player": "De'Zhaun Stribling",
+     "slot": "BE",
+     "lostPpg": 6.5,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "De'Zhaun Stribling",
+     "slot": "BE",
+     "lostPpg": 6.5,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "De'Zhaun Stribling",
+     "slot": "IR",
+     "lostPpg": 6.5,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "De'Zhaun Stribling",
+     "slot": "IR",
+     "lostPpg": 6.5,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "De'Zhaun Stribling",
+     "slot": "IR",
+     "lostPpg": 6.5,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "De'Zhaun Stribling",
+     "slot": "IR",
+     "lostPpg": 6.5,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "De'Zhaun Stribling",
+     "slot": "IR",
+     "lostPpg": 6.5,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "De'Zhaun Stribling",
+     "slot": "IR",
+     "lostPpg": 6.5,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Jonathon Brooks",
+     "slot": "ST",
+     "lostPpg": 4.7,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Jonathon Brooks",
+     "slot": "IR",
+     "lostPpg": 4.7,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Jonathon Brooks",
+     "slot": "IR",
+     "lostPpg": 4.7,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Jonathon Brooks",
+     "slot": "IR",
+     "lostPpg": 4.7,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "Jonathon Brooks",
+     "slot": "IR",
+     "lostPpg": 4.7,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Jonathon Brooks",
+     "slot": "IR",
+     "lostPpg": 4.7,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Jonathon Brooks",
+     "slot": "IR",
+     "lostPpg": 4.7,
+     "type": "missed"
+    }
+   ],
+   "regretPoints": 16.6,
+   "netRegretPoints": 3.3,
+   "lineupPoints": 1254.1,
+   "optimalPoints": 1379.2,
+   "efficiency": 0.909,
+   "benchPointsLeft": 125.1,
+   "waiverPoints": 65.9,
+   "waiverDetail": [
+    {
+     "player": "Jaguars D/ST",
+     "points": 36.0
+    },
+    {
+     "player": "Chad Ryland",
+     "points": 10.9
+    },
+    {
+     "player": "Antonio Williams",
+     "points": 10.4
+    },
+    {
+     "player": "Hunter Henry",
+     "points": 6.0
+    },
+    {
+     "player": "Quentin Johnston",
+     "points": 1.6
+    },
+    {
+     "player": "MarShawn Lloyd",
+     "points": 1.0
+    }
+   ],
+   "scoreStdev": 19.9,
+   "regretDetail": [
+    {
+     "player": "Chad Ryland",
+     "pos": "K",
+     "droppedAfterWeek": 8,
+     "pointsSince": 12.6,
+     "gamesSince": 2,
+     "ppgSince": 6.3,
+     "netRegret": 2.3
+    },
+    {
+     "player": "Ravens D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 7,
+     "pointsSince": 4.0,
+     "gamesSince": 1,
+     "ppgSince": 4.0,
+     "netRegret": 1.0
+    }
+   ],
+   "draftLuckPoints": -106.3,
+   "draftDetail": [
+    {
+     "player": "Jonathon Brooks",
+     "pick": 67,
+     "adp": 137.9,
+     "expected": 67.1,
+     "actual": 9.3,
+     "residual": -57.8
+    },
+    {
+     "player": "De'Zhaun Stribling",
+     "pick": 102,
+     "adp": 161.0,
+     "expected": 49.5,
+     "actual": 0.0,
+     "residual": -49.5
+    },
+    {
+     "player": "Jalen McMillan",
+     "pick": 139,
+     "adp": 168.2,
+     "expected": 46.2,
+     "actual": 0.0,
+     "residual": -46.2
+    },
+    {
+     "player": "Kyler Murray",
+     "pick": 126,
+     "adp": 158.7,
+     "expected": 119.3,
+     "actual": 90.8,
+     "residual": -28.5
+    },
+    {
+     "player": "Ravens D/ST",
+     "pick": 163,
+     "adp": 152.1,
+     "expected": 48.6,
+     "actual": 37.0,
+     "residual": -11.6
+    },
+    {
+     "player": "Kyren Williams",
+     "pick": 30,
+     "adp": 39.6,
+     "expected": 124.6,
+     "actual": 164.3,
+     "residual": 39.7
+    },
+    {
+     "player": "Woody Marks",
+     "pick": 115,
+     "adp": 157.3,
+     "expected": 55.5,
+     "actual": 78.4,
+     "residual": 22.9
+    },
+    {
+     "player": "Ka'imi Fairbairn",
+     "pick": 150,
+     "adp": 117.8,
+     "expected": 85.1,
+     "actual": 105.9,
+     "residual": 20.8
+    }
+   ],
+   "components": {
+    "schedule": 0.46,
+    "close": 0.65,
+    "pa": -0.36,
+    "injury": 0.78,
+    "draft": -1.02
+   },
+   "luckIndex": 20.6
+  },
+  {
+   "teamId": 14,
+   "name": "Likely going to Butker",
+   "abbrev": "LGTB",
+   "wins": 9,
+   "losses": 11,
+   "h2hWins": 4,
+   "h2hLosses": 6,
+   "medianWins": 5,
+   "pointsFor": 1221.2,
+   "pointsAgainst": 1309.0,
+   "allPlayWins": 4.27,
+   "xWins": 9.27,
+   "winsVsExpected": -0.27,
+   "closeWins": 1,
+   "closeLosses": 1,
+   "topScoreWeeks": 1,
+   "injuryPointsLost": 325.2,
+   "injuryPlayerWeeks": 28,
+   "injuryDetail": [
+    {
+     "week": 2,
+     "player": "Puka Nacua",
+     "slot": "ST",
+     "lostPpg": 24.8,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Puka Nacua",
+     "slot": "IR",
+     "lostPpg": 24.8,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Puka Nacua",
+     "slot": "BE",
+     "lostPpg": 24.8,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Caleb Williams",
+     "slot": "BE",
+     "lostPpg": 22.8,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Caleb Williams",
+     "slot": "IR",
+     "lostPpg": 22.8,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Caleb Williams",
+     "slot": "IR",
+     "lostPpg": 22.8,
+     "type": "missed"
+    },
+    {
+     "week": 2,
+     "player": "Nico Collins",
+     "slot": "ST",
+     "lostPpg": 16.6,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Nico Collins",
+     "slot": "IR",
+     "lostPpg": 16.6,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Cam Skattebo",
+     "slot": "BE",
+     "lostPpg": 12.2,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Quinshon Judkins",
+     "slot": "ST",
+     "lostPpg": 12.0,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Dontayvion Wicks",
+     "slot": "ST",
+     "lostPpg": 8.9,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Ladd McConkey",
+     "slot": "BE",
+     "lostPpg": 8.6,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Ladd McConkey",
+     "slot": "ST",
+     "lostPpg": 8.6,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Ladd McConkey",
+     "slot": "ST",
+     "lostPpg": 8.6,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Rico Dowdle",
+     "slot": "BE",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Rico Dowdle",
+     "slot": "BE",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Rico Dowdle",
+     "slot": "BE",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Roman Wilson",
+     "slot": "IR",
+     "lostPpg": 6.2,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Roman Wilson",
+     "slot": "IR",
+     "lostPpg": 6.2,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "Roman Wilson",
+     "slot": "IR",
+     "lostPpg": 6.2,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Roman Wilson",
+     "slot": "IR",
+     "lostPpg": 6.2,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Jadarian Price",
+     "slot": "IR",
+     "lostPpg": 6.1,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Jadarian Price",
+     "slot": "IR",
+     "lostPpg": 6.1,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Jadarian Price",
+     "slot": "IR",
+     "lostPpg": 6.1,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "TreVeyon Henderson",
+     "slot": "BE",
+     "lostPpg": 5.6,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "TreVeyon Henderson",
+     "slot": "BE",
+     "lostPpg": 5.6,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "TreVeyon Henderson",
+     "slot": "BE",
+     "lostPpg": 5.6,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Dontayvion Wicks",
+     "slot": "ST",
+     "lostPpg": 5.4,
+     "type": "mid-game"
+    }
+   ],
+   "regretPoints": 34.4,
+   "netRegretPoints": 9.0,
+   "lineupPoints": 1221.2,
+   "optimalPoints": 1407.9,
+   "efficiency": 0.867,
+   "benchPointsLeft": 186.6,
+   "waiverPoints": 133.9,
+   "waiverDetail": [
+    {
+     "player": "Tyler Shough",
+     "points": 67.0
+    },
+    {
+     "player": "Spencer Shrader",
+     "points": 25.7
+    },
+    {
+     "player": "Pat Freiermuth",
+     "points": 11.6
+    },
+    {
+     "player": "Jake Bates",
+     "points": 10.6
+    },
+    {
+     "player": "Giants D/ST",
+     "points": 9.0
+    },
+    {
+     "player": "Broncos D/ST",
+     "points": 6.0
+    }
+   ],
+   "scoreStdev": 28.7,
+   "regretDetail": [
+    {
+     "player": "Giants D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 3,
+     "pointsSince": 19.0,
+     "gamesSince": 2,
+     "ppgSince": 9.5,
+     "netRegret": 9.0
+    },
+    {
+     "player": "Jake Bates",
+     "pos": "K",
+     "droppedAfterWeek": 5,
+     "pointsSince": 15.4,
+     "gamesSince": 1,
+     "ppgSince": 15.4,
+     "netRegret": 0.0
+    }
+   ],
+   "draftLuckPoints": 46.6,
+   "draftDetail": [
+    {
+     "player": "Caleb Williams",
+     "pick": 95,
+     "adp": 84.2,
+     "expected": 183.7,
+     "actual": 136.8,
+     "residual": -46.9
+    },
+    {
+     "player": "Jadarian Price",
+     "pick": 47,
+     "adp": 118.1,
+     "expected": 82.4,
+     "actual": 42.9,
+     "residual": -39.5
+    },
+    {
+     "player": "Rico Dowdle",
+     "pick": 50,
+     "adp": 137.0,
+     "expected": 69.0,
+     "actual": 50.0,
+     "residual": -19.0
+    },
+    {
+     "player": "Nico Collins",
+     "pick": 23,
+     "adp": 34.0,
+     "expected": 129.5,
+     "actual": 116.0,
+     "residual": -13.5
+    },
+    {
+     "player": "Kenny Gainwell",
+     "pick": 74,
+     "adp": 132.5,
+     "expected": 73.1,
+     "actual": 63.6,
+     "residual": -9.5
+    },
+    {
+     "player": "Tre Tucker",
+     "pick": 143,
+     "adp": 162.2,
+     "expected": 48.7,
+     "actual": 111.2,
+     "residual": 62.5
+    },
+    {
+     "player": "D'Andre Swift",
+     "pick": 26,
+     "adp": 50.2,
+     "expected": 118.9,
+     "actual": 153.8,
+     "residual": 34.9
+    },
+    {
+     "player": "Isaiah Likely",
+     "pick": 119,
+     "adp": 64.1,
+     "expected": 122.3,
+     "actual": 156.5,
+     "residual": 34.2
+    }
+   ],
+   "components": {
+    "schedule": -0.2,
+    "close": 0.0,
+    "pa": 0.12,
+    "injury": -0.88,
+    "draft": 0.45
+   },
+   "luckIndex": -16.0
+  },
+  {
+   "teamId": 1,
+   "name": "50 Shaheed's Of Maye",
+   "abbrev": "oof",
+   "wins": 10,
+   "losses": 10,
+   "h2hWins": 4,
+   "h2hLosses": 6,
+   "medianWins": 6,
+   "pointsFor": 1408.3,
+   "pointsAgainst": 1338.9,
+   "allPlayWins": 6.27,
+   "xWins": 12.27,
+   "winsVsExpected": -2.27,
+   "closeWins": 0,
+   "closeLosses": 2,
+   "topScoreWeeks": 1,
+   "injuryPointsLost": 101.5,
+   "injuryPlayerWeeks": 11,
+   "injuryDetail": [
+    {
+     "week": 7,
+     "player": "Mike Evans",
+     "slot": "IR",
+     "lostPpg": 14.8,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Mike Evans",
+     "slot": "IR",
+     "lostPpg": 14.8,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Mike Evans",
+     "slot": "IR",
+     "lostPpg": 14.8,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Jalen Coker",
+     "slot": "BE",
+     "lostPpg": 10.8,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Tyler Warren",
+     "slot": "IR",
+     "lostPpg": 10.8,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Tyler Warren",
+     "slot": "IR",
+     "lostPpg": 10.8,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Jaylen Waddle",
+     "slot": "BE",
+     "lostPpg": 6.6,
+     "type": "mid-game"
+    },
+    {
+     "week": 2,
+     "player": "Ja'Kobi Lane",
+     "slot": "IR",
+     "lostPpg": 4.5,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Ja'Kobi Lane",
+     "slot": "IR",
+     "lostPpg": 4.5,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Ja'Kobi Lane",
+     "slot": "IR",
+     "lostPpg": 4.5,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Ja'Kobi Lane",
+     "slot": "IR",
+     "lostPpg": 4.5,
+     "type": "missed"
+    }
+   ],
+   "regretPoints": 247.3,
+   "netRegretPoints": 104.5,
+   "lineupPoints": 1408.3,
+   "optimalPoints": 1553.6,
+   "efficiency": 0.907,
+   "benchPointsLeft": 145.3,
+   "waiverPoints": 234.2,
+   "waiverDetail": [
+    {
+     "player": "Vikings D/ST",
+     "points": 85.0
+    },
+    {
+     "player": "Cairo Santos",
+     "points": 69.5
+    },
+    {
+     "player": "C.J. Stroud",
+     "points": 30.6
+    },
+    {
+     "player": "Jonah Coleman",
+     "points": 18.8
+    },
+    {
+     "player": "Chiefs D/ST",
+     "points": 14.0
+    },
+    {
+     "player": "Michael Mayer",
+     "points": 6.2
+    }
+   ],
+   "scoreStdev": 18.7,
+   "regretDetail": [
+    {
+     "player": "C.J. Stroud",
+     "pos": "QB",
+     "droppedAfterWeek": 5,
+     "pointsSince": 97.8,
+     "gamesSince": 3,
+     "ppgSince": 32.6,
+     "netRegret": 48.0
+    },
+    {
+     "player": "Jaguars D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 1,
+     "pointsSince": 38.0,
+     "gamesSince": 5,
+     "ppgSince": 7.6,
+     "netRegret": 22.0
+    },
+    {
+     "player": "Buccaneers D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 2,
+     "pointsSince": 33.0,
+     "gamesSince": 3,
+     "ppgSince": 11.0,
+     "netRegret": 15.0
+    },
+    {
+     "player": "Tyler Loop",
+     "pos": "K",
+     "droppedAfterWeek": 1,
+     "pointsSince": 44.2,
+     "gamesSince": 5,
+     "ppgSince": 8.8,
+     "netRegret": 14.9
+    },
+    {
+     "player": "Mike Washington Jr.",
+     "pos": "RB",
+     "droppedAfterWeek": 3,
+     "pointsSince": 22.4,
+     "gamesSince": 6,
+     "ppgSince": 3.7,
+     "netRegret": 4.6
+    },
+    {
+     "player": "Chiefs D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 6,
+     "pointsSince": 8.0,
+     "gamesSince": 2,
+     "ppgSince": 4.0,
+     "netRegret": 0.0
+    },
+    {
+     "player": "Chris Rodriguez Jr.",
+     "pos": "RB",
+     "droppedAfterWeek": 3,
+     "pointsSince": 0.5,
+     "gamesSince": 1,
+     "ppgSince": 0.5,
+     "netRegret": 0.0
+    },
+    {
+     "player": "Tyler Higbee",
+     "pos": "TE",
+     "droppedAfterWeek": 6,
+     "pointsSince": 3.4,
+     "gamesSince": 1,
+     "ppgSince": 3.4,
+     "netRegret": 0.0
+    }
+   ],
+   "draftLuckPoints": 181.1,
+   "draftDetail": [
+    {
+     "player": "Tyler Warren",
+     "pick": 49,
+     "adp": 70.6,
+     "expected": 113.4,
+     "actual": 86.5,
+     "residual": -26.9
+    },
+    {
+     "player": "Ja'Kobi Lane",
+     "pick": 135,
+     "adp": 169.0,
+     "expected": 44.6,
+     "actual": 27.0,
+     "residual": -17.6
+    },
+    {
+     "player": "Mike Washington Jr.",
+     "pick": 130,
+     "adp": 168.7,
+     "expected": 44.9,
+     "actual": 41.3,
+     "residual": -3.6
+    },
+    {
+     "player": "Tyler Loop",
+     "pick": 178,
+     "adp": 167.0,
+     "expected": 66.8,
+     "actual": 67.9,
+     "residual": 1.1
+    },
+    {
+     "player": "Mike Evans",
+     "pick": 63,
+     "adp": 100.1,
+     "expected": 87.4,
+     "actual": 89.0,
+     "residual": 1.6
+    },
+    {
+     "player": "Matthew Golden",
+     "pick": 82,
+     "adp": 52.1,
+     "expected": 108.3,
+     "actual": 175.9,
+     "residual": 67.6
+    },
+    {
+     "player": "KC Concepcion",
+     "pick": 106,
+     "adp": 143.9,
+     "expected": 59.3,
+     "actual": 100.1,
+     "residual": 40.8
+    },
+    {
+     "player": "Bhayshul Tuten",
+     "pick": 39,
+     "adp": 54.6,
+     "expected": 113.7,
+     "actual": 147.5,
+     "residual": 33.8
+    }
+   ],
+   "components": {
+    "schedule": -1.64,
+    "close": -1.31,
+    "pa": -0.25,
+    "injury": 1.38,
+    "draft": 1.74
+   },
+   "luckIndex": -26.8
+  },
+  {
+   "teamId": 2,
+   "name": "Nice Tets, B. Nix",
+   "abbrev": "Rob ",
+   "wins": 7,
+   "losses": 13,
+   "h2hWins": 3,
+   "h2hLosses": 7,
+   "medianWins": 4,
+   "pointsFor": 1170.0,
+   "pointsAgainst": 1387.3,
+   "allPlayWins": 4.0,
+   "xWins": 8.0,
+   "winsVsExpected": -1.0,
+   "closeWins": 1,
+   "closeLosses": 2,
+   "topScoreWeeks": 0,
+   "injuryPointsLost": 237.1,
+   "injuryPlayerWeeks": 23,
+   "injuryDetail": [
+    {
+     "week": 10,
+     "player": "Kenneth Walker III",
+     "slot": "ST",
+     "lostPpg": 24.6,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Sam Darnold",
+     "slot": "BE",
+     "lostPpg": 19.6,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Sam Darnold",
+     "slot": "--",
+     "lostPpg": 19.6,
+     "type": "post-drop"
+    },
+    {
+     "week": 6,
+     "player": "Deebo Samuel Sr.",
+     "slot": "BE",
+     "lostPpg": 14.4,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Deebo Samuel Sr.",
+     "slot": "BE",
+     "lostPpg": 14.4,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Deebo Samuel Sr.",
+     "slot": "BE",
+     "lostPpg": 14.4,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Stefon Diggs",
+     "slot": "BE",
+     "lostPpg": 13.8,
+     "type": "missed"
+    },
+    {
+     "week": 1,
+     "player": "Alvin Kamara",
+     "slot": "BE",
+     "lostPpg": 11.3,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Keenan Allen",
+     "slot": "BE",
+     "lostPpg": 10.2,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Will Shipley",
+     "slot": "BE",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Will Shipley",
+     "slot": "IR",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "Will Shipley",
+     "slot": "IR",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Will Shipley",
+     "slot": "IR",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 1,
+     "player": "Isiah Pacheco",
+     "slot": "BE",
+     "lostPpg": 6.3,
+     "type": "missed"
+    },
+    {
+     "week": 2,
+     "player": "Isiah Pacheco",
+     "slot": "BE",
+     "lostPpg": 6.3,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Isiah Pacheco",
+     "slot": "IR",
+     "lostPpg": 6.3,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Isiah Pacheco",
+     "slot": "IR",
+     "lostPpg": 6.3,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Isiah Pacheco",
+     "slot": "IR",
+     "lostPpg": 6.3,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Isiah Pacheco",
+     "slot": "IR",
+     "lostPpg": 6.3,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "Isiah Pacheco",
+     "slot": "IR",
+     "lostPpg": 6.3,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Isiah Pacheco",
+     "slot": "IR",
+     "lostPpg": 6.3,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Isiah Pacheco",
+     "slot": "IR",
+     "lostPpg": 6.3,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Eagles D/ST",
+     "slot": "ST",
+     "lostPpg": 5.5,
+     "type": "mid-game"
+    }
+   ],
+   "regretPoints": 121.2,
+   "netRegretPoints": 97.6,
+   "lineupPoints": 1170.0,
+   "optimalPoints": 1320.0,
+   "efficiency": 0.886,
+   "benchPointsLeft": 150.0,
+   "waiverPoints": 129.3,
+   "waiverDetail": [
+    {
+     "player": "Sam Darnold",
+     "points": 99.9
+    },
+    {
+     "player": "Bryce Young",
+     "points": 10.1
+    },
+    {
+     "player": "Will Shipley",
+     "points": 8.3
+    },
+    {
+     "player": "Jaguars D/ST",
+     "points": 4.0
+    },
+    {
+     "player": "Cowboys D/ST",
+     "points": 4.0
+    },
+    {
+     "player": "Falcons D/ST",
+     "points": 2.0
+    }
+   ],
+   "scoreStdev": 26.4,
+   "regretDetail": [
+    {
+     "player": "Jaguars D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 6,
+     "pointsSince": 36.0,
+     "gamesSince": 3,
+     "ppgSince": 12.0,
+     "netRegret": 41.0
+    },
+    {
+     "player": "Chiefs D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 4,
+     "pointsSince": 22.0,
+     "gamesSince": 3,
+     "ppgSince": 7.3,
+     "netRegret": 32.0
+    },
+    {
+     "player": "Keenan Allen",
+     "pos": "WR",
+     "droppedAfterWeek": 4,
+     "pointsSince": 63.2,
+     "gamesSince": 6,
+     "ppgSince": 10.5,
+     "netRegret": 24.6
+    }
+   ],
+   "draftLuckPoints": 105.5,
+   "draftDetail": [
+    {
+     "player": "Isiah Pacheco",
+     "pick": 144,
+     "adp": 167.4,
+     "expected": 47.4,
+     "actual": 0.0,
+     "residual": -47.4
+    },
+    {
+     "player": "Bijan Robinson",
+     "pick": 1,
+     "adp": 4.6,
+     "expected": 226.0,
+     "actual": 197.7,
+     "residual": -28.3
+    },
+    {
+     "player": "Eagles D/ST",
+     "pick": 169,
+     "adp": 158.9,
+     "expected": 46.5,
+     "actual": 20.0,
+     "residual": -26.5
+    },
+    {
+     "player": "Kyle Pitts Sr.",
+     "pick": 72,
+     "adp": 107.4,
+     "expected": 85.9,
+     "actual": 78.0,
+     "residual": -7.9
+    },
+    {
+     "player": "Jason Myers",
+     "pick": 145,
+     "adp": 133.0,
+     "expected": 77.9,
+     "actual": 81.2,
+     "residual": 3.3
+    },
+    {
+     "player": "Keenan Allen",
+     "pick": 121,
+     "adp": 158.0,
+     "expected": 51.3,
+     "actual": 92.2,
+     "residual": 40.9
+    },
+    {
+     "player": "Alvin Kamara",
+     "pick": 168,
+     "adp": 162.7,
+     "expected": 49.9,
+     "actual": 90.1,
+     "residual": 40.2
+    },
+    {
+     "player": "Bo Nix",
+     "pick": 97,
+     "adp": 132.4,
+     "expected": 135.0,
+     "actual": 166.1,
+     "residual": 31.1
+    }
+   ],
+   "components": {
+    "schedule": -0.72,
+    "close": -0.65,
+    "pa": -0.83,
+    "injury": 0.01,
+    "draft": 1.02
+   },
+   "luckIndex": -32.0
+  },
+  {
+   "teamId": 5,
+   "name": "Team  Barry",
+   "abbrev": "Emb",
+   "wins": 5,
+   "losses": 15,
+   "h2hWins": 3,
+   "h2hLosses": 7,
+   "medianWins": 2,
+   "pointsFor": 1123.8,
+   "pointsAgainst": 1330.3,
+   "allPlayWins": 2.73,
+   "xWins": 4.73,
+   "winsVsExpected": 0.27,
+   "closeWins": 0,
+   "closeLosses": 0,
+   "topScoreWeeks": 0,
+   "injuryPointsLost": 354.6,
+   "injuryPlayerWeeks": 33,
+   "injuryDetail": [
+    {
+     "week": 8,
+     "player": "Lamar Jackson",
+     "slot": "ST",
+     "lostPpg": 24.9,
+     "type": "mid-game"
+    },
+    {
+     "week": 5,
+     "player": "Lamar Jackson",
+     "slot": "BE",
+     "lostPpg": 19.9,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Lamar Jackson",
+     "slot": "BE",
+     "lostPpg": 19.9,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Lamar Jackson",
+     "slot": "BE",
+     "lostPpg": 19.9,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Lamar Jackson",
+     "slot": "IR",
+     "lostPpg": 19.9,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Lamar Jackson",
+     "slot": "IR",
+     "lostPpg": 19.9,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Kyle Monangai",
+     "slot": "BE",
+     "lostPpg": 14.8,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Kyle Monangai",
+     "slot": "IR",
+     "lostPpg": 14.8,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Kyle Monangai",
+     "slot": "IR",
+     "lostPpg": 14.8,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "Kyle Monangai",
+     "slot": "IR",
+     "lostPpg": 14.8,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Kyle Monangai",
+     "slot": "BE",
+     "lostPpg": 14.8,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Travis Etienne Jr.",
+     "slot": "IR",
+     "lostPpg": 9.3,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Travis Etienne Jr.",
+     "slot": "IR",
+     "lostPpg": 9.3,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Travis Etienne Jr.",
+     "slot": "IR",
+     "lostPpg": 9.3,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Travis Etienne Jr.",
+     "slot": "IR",
+     "lostPpg": 9.3,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Travis Etienne Jr.",
+     "slot": "IR",
+     "lostPpg": 9.3,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Saquon Barkley",
+     "slot": "BE",
+     "lostPpg": 8.4,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Saquon Barkley",
+     "slot": "BE",
+     "lostPpg": 8.4,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Jake Ferguson",
+     "slot": "ST",
+     "lostPpg": 7.4,
+     "type": "mid-game"
+    },
+    {
+     "week": 8,
+     "player": "Jake Ferguson",
+     "slot": "--",
+     "lostPpg": 7.4,
+     "type": "post-drop"
+    },
+    {
+     "week": 9,
+     "player": "Jake Ferguson",
+     "slot": "--",
+     "lostPpg": 7.4,
+     "type": "post-drop"
+    },
+    {
+     "week": 10,
+     "player": "Jake Ferguson",
+     "slot": "--",
+     "lostPpg": 7.4,
+     "type": "post-drop"
+    },
+    {
+     "week": 2,
+     "player": "A.J. Brown",
+     "slot": "IR",
+     "lostPpg": 6.0,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "A.J. Brown",
+     "slot": "IR",
+     "lostPpg": 6.0,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "A.J. Brown",
+     "slot": "IR",
+     "lostPpg": 6.0,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "A.J. Brown",
+     "slot": "IR",
+     "lostPpg": 6.0,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "A.J. Brown",
+     "slot": "ST",
+     "lostPpg": 6.0,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "A.J. Brown",
+     "slot": "BE",
+     "lostPpg": 6.0,
+     "type": "missed"
+    },
+    {
+     "week": 8,
+     "player": "Rashid Shaheed",
+     "slot": "ST",
+     "lostPpg": 5.5,
+     "type": "missed"
+    },
+    {
+     "week": 9,
+     "player": "Rashid Shaheed",
+     "slot": "BE",
+     "lostPpg": 5.5,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Marvin Harrison Jr.",
+     "slot": "BE",
+     "lostPpg": 5.4,
+     "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Marvin Harrison Jr.",
+     "slot": "BE",
+     "lostPpg": 5.4,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Keaton Mitchell",
+     "slot": "ST",
+     "lostPpg": 5.3,
+     "type": "mid-game"
+    }
+   ],
+   "regretPoints": 0.0,
+   "netRegretPoints": 0.0,
+   "lineupPoints": 1123.8,
+   "optimalPoints": 1240.8,
+   "efficiency": 0.906,
+   "benchPointsLeft": 117.0,
+   "waiverPoints": 146.2,
+   "waiverDetail": [
+    {
+     "player": "Devaughn Vele",
+     "points": 73.0
+    },
+    {
+     "player": "Jacoby Brissett",
+     "points": 33.2
+    },
+    {
+     "player": "Brenton Strange",
+     "points": 20.6
+    },
+    {
+     "player": "Kendre Miller",
+     "points": 18.0
+    },
+    {
+     "player": "Ryan Fitzgerald",
+     "points": 1.0
+    },
+    {
+     "player": "Keaton Mitchell",
+     "points": 0.4
+    }
+   ],
+   "scoreStdev": 25.9,
+   "regretDetail": [],
+   "draftLuckPoints": -142.4,
+   "draftDetail": [
+    {
+     "player": "Lamar Jackson",
+     "pick": 35,
+     "adp": 78.6,
+     "expected": 196.5,
+     "actual": 99.8,
+     "residual": -96.7
+    },
+    {
+     "player": "A.J. Brown",
+     "pick": 14,
+     "adp": 55.4,
+     "expected": 102.1,
+     "actual": 23.8,
+     "residual": -78.3
+    },
+    {
+     "player": "Saquon Barkley",
+     "pick": 11,
+     "adp": 36.0,
+     "expected": 131.1,
+     "actual": 58.7,
+     "residual": -72.4
+    },
+    {
+     "player": "Marvin Harrison Jr.",
+     "pick": 62,
+     "adp": 127.3,
+     "expected": 73.3,
+     "actual": 37.5,
+     "residual": -35.8
+    },
+    {
+     "player": "Cyrus Allen",
+     "pick": 179,
+     "adp": 169.6,
+     "expected": 43.1,
+     "actual": 23.9,
+     "residual": -19.2
+    },
+    {
+     "player": "Patrick Mahomes",
+     "pick": 134,
+     "adp": 92.1,
+     "expected": 163.5,
+     "actual": 235.2,
+     "residual": 71.8
+    },
+    {
+     "player": "Parker Washington",
+     "pick": 59,
+     "adp": 67.3,
+     "expected": 99.3,
+     "actual": 137.8,
+     "residual": 38.5
+    },
+    {
+     "player": "Tee Higgins",
+     "pick": 38,
+     "adp": 29.9,
+     "expected": 142.1,
+     "actual": 171.4,
+     "residual": 29.3
+    }
+   ],
+   "components": {
+    "schedule": 0.2,
+    "close": 0.0,
+    "pa": -0.14,
+    "injury": -1.18,
+    "draft": -1.37
+   },
+   "luckIndex": -39.3
   },
   {
    "teamId": 9,
    "name": "I Want My Baby Back Gibbs",
    "abbrev": "AMH",
    "wins": 12,
-   "losses": 6,
+   "losses": 8,
    "h2hWins": 6,
-   "h2hLosses": 3,
+   "h2hLosses": 4,
    "medianWins": 6,
-   "pointsFor": 1270.4,
-   "pointsAgainst": 1127.4,
-   "allPlayWins": 5.64,
-   "xWins": 11.64,
-   "winsVsExpected": 0.36,
+   "pointsFor": 1390.4,
+   "pointsAgainst": 1284.1,
+   "allPlayWins": 6.0,
+   "xWins": 12.0,
+   "winsVsExpected": 0.0,
    "closeWins": 0,
    "closeLosses": 1,
    "topScoreWeeks": 3,
-   "injuryPointsLost": 347.8,
-   "injuryPlayerWeeks": 36,
+   "injuryPointsLost": 392.5,
+   "injuryPlayerWeeks": 40,
    "injuryDetail": [
     {
      "week": 6,
@@ -2236,6 +3386,13 @@
      "type": "post-drop"
     },
     {
+     "week": 10,
+     "player": "Jalen Hurts",
+     "slot": "--",
+     "lostPpg": 20.5,
+     "type": "post-drop"
+    },
+    {
      "week": 7,
      "player": "Davante Adams",
      "slot": "IR",
@@ -2251,6 +3408,13 @@
     },
     {
      "week": 9,
+     "player": "Davante Adams",
+     "slot": "IR",
+     "lostPpg": 17.0,
+     "type": "missed"
+    },
+    {
+     "week": 10,
      "player": "Davante Adams",
      "slot": "IR",
      "lostPpg": 17.0,
@@ -2292,6 +3456,62 @@
      "type": "missed"
     },
     {
+     "week": 10,
+     "player": "Jeremiyah Love",
+     "slot": "IR",
+     "lostPpg": 8.9,
+     "type": "missed"
+    },
+    {
+     "week": 1,
+     "player": "Zach Charbonnet",
+     "slot": "IR",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 2,
+     "player": "Zach Charbonnet",
+     "slot": "IR",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Zach Charbonnet",
+     "slot": "IR",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Zach Charbonnet",
+     "slot": "IR",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Zach Charbonnet",
+     "slot": "IR",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Zach Charbonnet",
+     "slot": "IR",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
+     "week": 7,
+     "player": "Zach Charbonnet",
+     "slot": "BE",
+     "lostPpg": 8.3,
+     "type": "missed"
+    },
+    {
      "week": 8,
      "player": "Jeremiyah Love",
      "slot": "ST",
@@ -2300,157 +3520,115 @@
     },
     {
      "week": 1,
-     "player": "Zach Charbonnet",
-     "slot": "IR",
-     "lostPpg": 7.8,
-     "type": "missed"
-    },
-    {
-     "week": 2,
-     "player": "Zach Charbonnet",
-     "slot": "IR",
-     "lostPpg": 7.8,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Zach Charbonnet",
-     "slot": "IR",
-     "lostPpg": 7.8,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Zach Charbonnet",
-     "slot": "IR",
-     "lostPpg": 7.8,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Zach Charbonnet",
-     "slot": "IR",
-     "lostPpg": 7.8,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Zach Charbonnet",
-     "slot": "IR",
-     "lostPpg": 7.8,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Zach Charbonnet",
-     "slot": "BE",
-     "lostPpg": 7.8,
-     "type": "missed"
-    },
-    {
-     "week": 1,
-     "player": "Tank Dell",
-     "slot": "IR",
-     "lostPpg": 6.9,
-     "type": "missed"
-    },
-    {
-     "week": 2,
-     "player": "Tank Dell",
-     "slot": "IR",
-     "lostPpg": 6.9,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Tank Dell",
-     "slot": "IR",
-     "lostPpg": 6.9,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Tank Dell",
-     "slot": "IR",
-     "lostPpg": 6.9,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Tank Dell",
-     "slot": "IR",
-     "lostPpg": 6.9,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Tank Dell",
-     "slot": "IR",
-     "lostPpg": 6.9,
-     "type": "missed"
-    },
-    {
-     "week": 1,
      "player": "Jalen McMillan",
      "slot": "BE",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "missed"
     },
     {
      "week": 2,
      "player": "Jalen McMillan",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 3,
      "player": "Jalen McMillan",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 4,
      "player": "Jalen McMillan",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 5,
      "player": "Jalen McMillan",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 6,
      "player": "Jalen McMillan",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 7,
      "player": "Jalen McMillan",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 8,
      "player": "Jalen McMillan",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
     },
     {
      "week": 9,
      "player": "Jalen McMillan",
      "slot": "--",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "post-drop"
+    },
+    {
+     "week": 10,
+     "player": "Jalen McMillan",
+     "slot": "--",
+     "lostPpg": 6.2,
+     "type": "post-drop"
+    },
+    {
+     "week": 1,
+     "player": "Tank Dell",
+     "slot": "IR",
+     "lostPpg": 5.3,
+     "type": "missed"
+    },
+    {
+     "week": 2,
+     "player": "Tank Dell",
+     "slot": "IR",
+     "lostPpg": 5.3,
+     "type": "missed"
+    },
+    {
+     "week": 3,
+     "player": "Tank Dell",
+     "slot": "IR",
+     "lostPpg": 5.3,
+     "type": "missed"
+    },
+    {
+     "week": 4,
+     "player": "Tank Dell",
+     "slot": "IR",
+     "lostPpg": 5.3,
+     "type": "missed"
+    },
+    {
+     "week": 5,
+     "player": "Tank Dell",
+     "slot": "IR",
+     "lostPpg": 5.3,
+     "type": "missed"
+    },
+    {
+     "week": 6,
+     "player": "Tank Dell",
+     "slot": "IR",
+     "lostPpg": 5.3,
+     "type": "missed"
     },
     {
      "week": 6,
@@ -2460,17 +3638,17 @@
      "type": "mid-game"
     }
    ],
-   "regretPoints": 73.0,
-   "netRegretPoints": 37.8,
-   "lineupPoints": 1270.4,
-   "optimalPoints": 1379.1,
-   "efficiency": 0.921,
-   "benchPointsLeft": 108.7,
-   "waiverPoints": 365.6,
+   "regretPoints": 96.3,
+   "netRegretPoints": 41.5,
+   "lineupPoints": 1390.4,
+   "optimalPoints": 1516.3,
+   "efficiency": 0.917,
+   "benchPointsLeft": 125.9,
+   "waiverPoints": 411.9,
    "waiverDetail": [
     {
      "player": "C.J. Stroud",
-     "points": 70.2
+     "points": 97.8
     },
     {
      "player": "Bryce Young",
@@ -2478,7 +3656,7 @@
     },
     {
      "player": "Denzel Boston",
-     "points": 55.4
+     "points": 58.0
     },
     {
      "player": "Spencer Shrader",
@@ -2486,22 +3664,22 @@
     },
     {
      "player": "DeMario Douglas",
-     "points": 37.1
+     "points": 38.5
     },
     {
      "player": "Bears D/ST",
      "points": 22.0
     }
    ],
-   "scoreStdev": 34.7,
+   "scoreStdev": 33.5,
    "regretDetail": [
     {
      "player": "Spencer Shrader",
      "pos": "K",
      "droppedAfterWeek": 8,
-     "pointsSince": 17.6,
-     "gamesSince": 1,
-     "ppgSince": 17.6,
+     "pointsSince": 25.7,
+     "gamesSince": 2,
+     "ppgSince": 12.9,
      "netRegret": 14.8
     },
     {
@@ -2521,6 +3699,15 @@
      "gamesSince": 2,
      "ppgSince": 7.0,
      "netRegret": 8.0
+    },
+    {
+     "player": "Tank Dell",
+     "pos": "WR",
+     "droppedAfterWeek": 7,
+     "pointsSince": 5.1,
+     "gamesSince": 1,
+     "ppgSince": 5.1,
+     "netRegret": 3.7
     },
     {
      "player": "Bengals D/ST",
@@ -2548,1022 +3735,125 @@
      "gamesSince": 1,
      "ppgSince": 4.4,
      "netRegret": 0.0
+    },
+    {
+     "player": "Bryce Young",
+     "pos": "QB",
+     "droppedAfterWeek": 8,
+     "pointsSince": 10.1,
+     "gamesSince": 1,
+     "ppgSince": 10.1,
+     "netRegret": 0.0
     }
    ],
-   "draftLuckPoints": -13.1,
+   "draftLuckPoints": -56.4,
    "draftDetail": [
+    {
+     "player": "Jalen Hurts",
+     "pick": 41,
+     "adp": 111.4,
+     "expected": 155.2,
+     "actual": 102.3,
+     "residual": -52.8
+    },
     {
      "player": "Jeremiyah Love",
      "pick": 17,
-     "adp": 57.3,
-     "expected": 94.2,
+     "adp": 64.4,
+     "expected": 100.9,
      "actual": 53.4,
-     "residual": -40.8
+     "residual": -47.5
     },
     {
      "player": "Zach Charbonnet",
      "pick": 128,
-     "adp": 146.2,
-     "expected": 55.0,
-     "actual": 15.5,
-     "residual": -39.5
-    },
-    {
-     "player": "Jalen Hurts",
-     "pick": 41,
-     "adp": 109.0,
-     "expected": 140.4,
-     "actual": 102.3,
-     "residual": -38.1
+     "adp": 136.1,
+     "expected": 71.0,
+     "actual": 24.9,
+     "residual": -46.1
     },
     {
      "player": "Tank Dell",
      "pick": 137,
-     "adp": 152.4,
-     "expected": 51.6,
-     "actual": 26.0,
-     "residual": -25.6
+     "adp": 150.6,
+     "expected": 56.1,
+     "actual": 31.1,
+     "residual": -25.0
     },
     {
      "player": "Brian Thomas Jr.",
      "pick": 65,
-     "adp": 142.2,
-     "expected": 56.6,
-     "actual": 33.7,
-     "residual": -22.9
+     "adp": 143.3,
+     "expected": 60.4,
+     "actual": 39.6,
+     "residual": -20.8
     },
     {
      "player": "Tyler Shough",
      "pick": 161,
-     "adp": 148.8,
-     "expected": 115.9,
-     "actual": 187.5,
-     "residual": 71.6
+     "adp": 149.0,
+     "expected": 124.2,
+     "actual": 200.3,
+     "residual": 76.2
     },
     {
      "player": "Jaylen Warren",
      "pick": 56,
-     "adp": 68.9,
-     "expected": 87.6,
-     "actual": 140.8,
-     "residual": 53.2
+     "adp": 69.0,
+     "expected": 97.3,
+     "actual": 149.9,
+     "residual": 52.6
     },
     {
-     "player": "Davante Adams",
-     "pick": 32,
-     "adp": 96.4,
-     "expected": 82.0,
-     "actual": 102.0,
-     "residual": 20.0
+     "player": "Xavier Worthy",
+     "pick": 113,
+     "adp": 153.5,
+     "expected": 54.1,
+     "actual": 66.8,
+     "residual": 12.7
     }
    ],
    "components": {
-    "schedule": 0.29,
+    "schedule": 0.0,
     "close": -0.65,
-    "pa": 0.78,
-    "injury": -1.5,
-    "draft": -0.13
+    "pa": 0.42,
+    "injury": -1.56,
+    "draft": -0.54
    },
-   "luckIndex": -19.9
-  },
-  {
-   "teamId": 1,
-   "name": "50 Shaheed's Of Maye",
-   "abbrev": "oof",
-   "wins": 10,
-   "losses": 8,
-   "h2hWins": 4,
-   "h2hLosses": 5,
-   "medianWins": 6,
-   "pointsFor": 1298.8,
-   "pointsAgainst": 1195.2,
-   "allPlayWins": 6.0,
-   "xWins": 12.0,
-   "winsVsExpected": -2.0,
-   "closeWins": 0,
-   "closeLosses": 2,
-   "topScoreWeeks": 1,
-   "injuryPointsLost": 83.9,
-   "injuryPlayerWeeks": 9,
-   "injuryDetail": [
-    {
-     "week": 7,
-     "player": "Mike Evans",
-     "slot": "IR",
-     "lostPpg": 14.8,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Mike Evans",
-     "slot": "IR",
-     "lostPpg": 14.8,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Jalen Coker",
-     "slot": "BE",
-     "lostPpg": 12.3,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Tyler Warren",
-     "slot": "IR",
-     "lostPpg": 12.0,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Tyler Warren",
-     "slot": "IR",
-     "lostPpg": 12.0,
-     "type": "missed"
-    },
-    {
-     "week": 2,
-     "player": "Ja'Kobi Lane",
-     "slot": "IR",
-     "lostPpg": 4.5,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Ja'Kobi Lane",
-     "slot": "IR",
-     "lostPpg": 4.5,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Ja'Kobi Lane",
-     "slot": "IR",
-     "lostPpg": 4.5,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Ja'Kobi Lane",
-     "slot": "IR",
-     "lostPpg": 4.5,
-     "type": "missed"
-    }
-   ],
-   "regretPoints": 204.6,
-   "netRegretPoints": 80.5,
-   "lineupPoints": 1298.8,
-   "optimalPoints": 1427.7,
-   "efficiency": 0.91,
-   "benchPointsLeft": 129.0,
-   "waiverPoints": 211.2,
-   "waiverDetail": [
-    {
-     "player": "Cairo Santos",
-     "points": 69.5
-    },
-    {
-     "player": "Vikings D/ST",
-     "points": 64.0
-    },
-    {
-     "player": "C.J. Stroud",
-     "points": 30.6
-    },
-    {
-     "player": "Jonah Coleman",
-     "points": 18.8
-    },
-    {
-     "player": "Chiefs D/ST",
-     "points": 14.0
-    },
-    {
-     "player": "Michael Mayer",
-     "points": 6.2
-    }
-   ],
-   "scoreStdev": 16.4,
-   "regretDetail": [
-    {
-     "player": "C.J. Stroud",
-     "pos": "QB",
-     "droppedAfterWeek": 5,
-     "pointsSince": 70.2,
-     "gamesSince": 2,
-     "ppgSince": 35.1,
-     "netRegret": 24.0
-    },
-    {
-     "player": "Jaguars D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 1,
-     "pointsSince": 35.0,
-     "gamesSince": 4,
-     "ppgSince": 8.8,
-     "netRegret": 22.0
-    },
-    {
-     "player": "Buccaneers D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 2,
-     "pointsSince": 33.0,
-     "gamesSince": 3,
-     "ppgSince": 11.0,
-     "netRegret": 15.0
-    },
-    {
-     "player": "Tyler Loop",
-     "pos": "K",
-     "droppedAfterWeek": 1,
-     "pointsSince": 44.2,
-     "gamesSince": 5,
-     "ppgSince": 8.8,
-     "netRegret": 14.9
-    },
-    {
-     "player": "Mike Washington Jr.",
-     "pos": "RB",
-     "droppedAfterWeek": 3,
-     "pointsSince": 18.7,
-     "gamesSince": 5,
-     "ppgSince": 3.7,
-     "netRegret": 4.6
-    },
-    {
-     "player": "Tyler Higbee",
-     "pos": "TE",
-     "droppedAfterWeek": 6,
-     "pointsSince": 3.4,
-     "gamesSince": 1,
-     "ppgSince": 3.4,
-     "netRegret": 0.0
-    }
-   ],
-   "draftLuckPoints": 187.0,
-   "draftDetail": [
-    {
-     "player": "Tyler Warren",
-     "pick": 49,
-     "adp": 68.6,
-     "expected": 114.7,
-     "actual": 84.1,
-     "residual": -30.6
-    },
-    {
-     "player": "Ja'Kobi Lane",
-     "pick": 135,
-     "adp": 169.0,
-     "expected": 41.2,
-     "actual": 17.9,
-     "residual": -23.3
-    },
-    {
-     "player": "Mike Washington Jr.",
-     "pick": 130,
-     "adp": 167.9,
-     "expected": 42.7,
-     "actual": 37.6,
-     "residual": -5.1
-    },
-    {
-     "player": "Tyler Loop",
-     "pick": 178,
-     "adp": 166.7,
-     "expected": 63.2,
-     "actual": 67.9,
-     "residual": 4.7
-    },
-    {
-     "player": "J.K. Dobbins",
-     "pick": 87,
-     "adp": 142.7,
-     "expected": 56.5,
-     "actual": 62.5,
-     "residual": 6.0
-    },
-    {
-     "player": "Matthew Golden",
-     "pick": 82,
-     "adp": 55.4,
-     "expected": 96.2,
-     "actual": 163.9,
-     "residual": 67.7
-    },
-    {
-     "player": "CeeDee Lamb",
-     "pick": 10,
-     "adp": 11.0,
-     "expected": 157.3,
-     "actual": 201.8,
-     "residual": 44.5
-    },
-    {
-     "player": "KC Concepcion",
-     "pick": 106,
-     "adp": 147.6,
-     "expected": 53.5,
-     "actual": 88.4,
-     "residual": 34.9
-    }
-   ],
-   "components": {
-    "schedule": -1.61,
-    "close": -1.31,
-    "pa": -0.15,
-    "injury": 1.35,
-    "draft": 1.82
-   },
-   "luckIndex": -24.1
-  },
-  {
-   "teamId": 2,
-   "name": "Nice Tets, B. Nix",
-   "abbrev": "Rob ",
-   "wins": 7,
-   "losses": 11,
-   "h2hWins": 3,
-   "h2hLosses": 6,
-   "medianWins": 4,
-   "pointsFor": 1091.7,
-   "pointsAgainst": 1216.3,
-   "allPlayWins": 4.0,
-   "xWins": 8.0,
-   "winsVsExpected": -1.0,
-   "closeWins": 1,
-   "closeLosses": 2,
-   "topScoreWeeks": 0,
-   "injuryPointsLost": 201.2,
-   "injuryPlayerWeeks": 22,
-   "injuryDetail": [
-    {
-     "week": 9,
-     "player": "Sam Darnold",
-     "slot": "BE",
-     "lostPpg": 19.6,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Stefon Diggs",
-     "slot": "BE",
-     "lostPpg": 12.9,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Deebo Samuel Sr.",
-     "slot": "BE",
-     "lostPpg": 12.1,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Deebo Samuel Sr.",
-     "slot": "BE",
-     "lostPpg": 12.1,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Deebo Samuel Sr.",
-     "slot": "BE",
-     "lostPpg": 12.1,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Deebo Samuel Sr.",
-     "slot": "ST",
-     "lostPpg": 12.0,
-     "type": "mid-game"
-    },
-    {
-     "week": 1,
-     "player": "Alvin Kamara",
-     "slot": "BE",
-     "lostPpg": 10.5,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Keenan Allen",
-     "slot": "BE",
-     "lostPpg": 10.1,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "DK Metcalf",
-     "slot": "BE",
-     "lostPpg": 9.5,
-     "type": "mid-game"
-    },
-    {
-     "week": 6,
-     "player": "Will Shipley",
-     "slot": "BE",
-     "lostPpg": 8.3,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Will Shipley",
-     "slot": "IR",
-     "lostPpg": 8.3,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Will Shipley",
-     "slot": "IR",
-     "lostPpg": 8.3,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Will Shipley",
-     "slot": "IR",
-     "lostPpg": 8.3,
-     "type": "missed"
-    },
-    {
-     "week": 1,
-     "player": "Isiah Pacheco",
-     "slot": "BE",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 2,
-     "player": "Isiah Pacheco",
-     "slot": "BE",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Isiah Pacheco",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Isiah Pacheco",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Isiah Pacheco",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Isiah Pacheco",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Isiah Pacheco",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Isiah Pacheco",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "Eagles D/ST",
-     "slot": "ST",
-     "lostPpg": 5.5,
-     "type": "mid-game"
-    }
-   ],
-   "regretPoints": 98.1,
-   "netRegretPoints": 66.9,
-   "lineupPoints": 1091.7,
-   "optimalPoints": 1204.1,
-   "efficiency": 0.907,
-   "benchPointsLeft": 112.4,
-   "waiverPoints": 119.2,
-   "waiverDetail": [
-    {
-     "player": "Sam Darnold",
-     "points": 99.9
-    },
-    {
-     "player": "Will Shipley",
-     "points": 8.3
-    },
-    {
-     "player": "Jaguars D/ST",
-     "points": 4.0
-    },
-    {
-     "player": "Cowboys D/ST",
-     "points": 4.0
-    },
-    {
-     "player": "Falcons D/ST",
-     "points": 2.0
-    },
-    {
-     "player": "Chiefs D/ST",
-     "points": 1.0
-    }
-   ],
-   "scoreStdev": 24.3,
-   "regretDetail": [
-    {
-     "player": "Jaguars D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 6,
-     "pointsSince": 33.0,
-     "gamesSince": 2,
-     "ppgSince": 16.5,
-     "netRegret": 31.0
-    },
-    {
-     "player": "Keenan Allen",
-     "pos": "WR",
-     "droppedAfterWeek": 4,
-     "pointsSince": 52.1,
-     "gamesSince": 5,
-     "ppgSince": 10.4,
-     "netRegret": 19.9
-    },
-    {
-     "player": "Chiefs D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 4,
-     "pointsSince": 13.0,
-     "gamesSince": 2,
-     "ppgSince": 6.5,
-     "netRegret": 16.0
-    }
-   ],
-   "draftLuckPoints": 95.5,
-   "draftDetail": [
-    {
-     "player": "Isiah Pacheco",
-     "pick": 144,
-     "adp": 167.6,
-     "expected": 43.8,
-     "actual": 0.0,
-     "residual": -43.8
-    },
-    {
-     "player": "Eagles D/ST",
-     "pick": 169,
-     "adp": 158.6,
-     "expected": 41.3,
-     "actual": 20.0,
-     "residual": -21.3
-    },
-    {
-     "player": "Bijan Robinson",
-     "pick": 1,
-     "adp": 4.5,
-     "expected": 200.6,
-     "actual": 180.0,
-     "residual": -20.6
-    },
-    {
-     "player": "Kyle Pitts Sr.",
-     "pick": 72,
-     "adp": 105.9,
-     "expected": 82.0,
-     "actual": 71.0,
-     "residual": -11.0
-    },
-    {
-     "player": "DK Metcalf",
-     "pick": 58,
-     "adp": 108.2,
-     "expected": 74.8,
-     "actual": 77.9,
-     "residual": 3.1
-    },
-    {
-     "player": "Bo Nix",
-     "pick": 97,
-     "adp": 133.0,
-     "expected": 124.5,
-     "actual": 166.1,
-     "residual": 41.6
-    },
-    {
-     "player": "Stefon Diggs",
-     "pick": 73,
-     "adp": 109.8,
-     "expected": 71.6,
-     "actual": 110.6,
-     "residual": 39.0
-    },
-    {
-     "player": "Keenan Allen",
-     "pick": 121,
-     "adp": 162.2,
-     "expected": 45.7,
-     "actual": 81.1,
-     "residual": 35.4
-    }
-   ],
-   "components": {
-    "schedule": -0.81,
-    "close": -0.65,
-    "pa": -0.44,
-    "injury": 0.08,
-    "draft": 0.93
-   },
-   "luckIndex": -29.1
-  },
-  {
-   "teamId": 5,
-   "name": "Team  Barry",
-   "abbrev": "Emb",
-   "wins": 3,
-   "losses": 15,
-   "h2hWins": 2,
-   "h2hLosses": 7,
-   "medianWins": 1,
-   "pointsFor": 962.2,
-   "pointsAgainst": 1221.6,
-   "allPlayWins": 1.91,
-   "xWins": 2.91,
-   "winsVsExpected": 0.09,
-   "closeWins": 0,
-   "closeLosses": 0,
-   "topScoreWeeks": 0,
-   "injuryPointsLost": 330.3,
-   "injuryPlayerWeeks": 30,
-   "injuryDetail": [
-    {
-     "week": 8,
-     "player": "Lamar Jackson",
-     "slot": "ST",
-     "lostPpg": 24.9,
-     "type": "mid-game"
-    },
-    {
-     "week": 5,
-     "player": "Lamar Jackson",
-     "slot": "BE",
-     "lostPpg": 19.9,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Lamar Jackson",
-     "slot": "BE",
-     "lostPpg": 19.9,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Lamar Jackson",
-     "slot": "BE",
-     "lostPpg": 19.9,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Lamar Jackson",
-     "slot": "IR",
-     "lostPpg": 19.9,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Kyle Monangai",
-     "slot": "BE",
-     "lostPpg": 14.8,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Kyle Monangai",
-     "slot": "IR",
-     "lostPpg": 14.8,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Kyle Monangai",
-     "slot": "IR",
-     "lostPpg": 14.8,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Kyle Monangai",
-     "slot": "IR",
-     "lostPpg": 14.8,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Kyle Monangai",
-     "slot": "BE",
-     "lostPpg": 14.8,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "Travis Etienne Jr.",
-     "slot": "IR",
-     "lostPpg": 10.3,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Travis Etienne Jr.",
-     "slot": "IR",
-     "lostPpg": 10.3,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Travis Etienne Jr.",
-     "slot": "IR",
-     "lostPpg": 10.3,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Travis Etienne Jr.",
-     "slot": "IR",
-     "lostPpg": 10.3,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Travis Etienne Jr.",
-     "slot": "IR",
-     "lostPpg": 10.3,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Saquon Barkley",
-     "slot": "BE",
-     "lostPpg": 8.4,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Saquon Barkley",
-     "slot": "BE",
-     "lostPpg": 8.4,
-     "type": "missed"
-    },
-    {
-     "week": 7,
-     "player": "Jake Ferguson",
-     "slot": "ST",
-     "lostPpg": 7.4,
-     "type": "mid-game"
-    },
-    {
-     "week": 8,
-     "player": "Jake Ferguson",
-     "slot": "--",
-     "lostPpg": 7.4,
-     "type": "post-drop"
-    },
-    {
-     "week": 9,
-     "player": "Jake Ferguson",
-     "slot": "--",
-     "lostPpg": 7.4,
-     "type": "post-drop"
-    },
-    {
-     "week": 2,
-     "player": "A.J. Brown",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 3,
-     "player": "A.J. Brown",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 4,
-     "player": "A.J. Brown",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "A.J. Brown",
-     "slot": "IR",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "A.J. Brown",
-     "slot": "ST",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "A.J. Brown",
-     "slot": "BE",
-     "lostPpg": 6.4,
-     "type": "missed"
-    },
-    {
-     "week": 8,
-     "player": "Rashid Shaheed",
-     "slot": "ST",
-     "lostPpg": 6.0,
-     "type": "missed"
-    },
-    {
-     "week": 9,
-     "player": "Rashid Shaheed",
-     "slot": "BE",
-     "lostPpg": 6.0,
-     "type": "missed"
-    },
-    {
-     "week": 5,
-     "player": "Marvin Harrison Jr.",
-     "slot": "BE",
-     "lostPpg": 5.4,
-     "type": "missed"
-    },
-    {
-     "week": 6,
-     "player": "Keaton Mitchell",
-     "slot": "ST",
-     "lostPpg": 5.3,
-     "type": "mid-game"
-    }
-   ],
-   "regretPoints": 0.0,
-   "netRegretPoints": 0.0,
-   "lineupPoints": 962.2,
-   "optimalPoints": 1066.2,
-   "efficiency": 0.902,
-   "benchPointsLeft": 104.0,
-   "waiverPoints": 133.9,
-   "waiverDetail": [
-    {
-     "player": "Devaughn Vele",
-     "points": 69.6
-    },
-    {
-     "player": "Jacoby Brissett",
-     "points": 33.2
-    },
-    {
-     "player": "Kendre Miller",
-     "points": 18.0
-    },
-    {
-     "player": "Brenton Strange",
-     "points": 11.7
-    },
-    {
-     "player": "Ryan Fitzgerald",
-     "points": 1.0
-    },
-    {
-     "player": "Keaton Mitchell",
-     "points": 0.4
-    }
-   ],
-   "scoreStdev": 21.1,
-   "regretDetail": [],
-   "draftLuckPoints": -183.4,
-   "draftDetail": [
-    {
-     "player": "Lamar Jackson",
-     "pick": 35,
-     "adp": 76.8,
-     "expected": 185.5,
-     "actual": 99.8,
-     "residual": -85.7
-    },
-    {
-     "player": "A.J. Brown",
-     "pick": 14,
-     "adp": 53.0,
-     "expected": 99.1,
-     "actual": 19.1,
-     "residual": -80.0
-    },
-    {
-     "player": "Saquon Barkley",
-     "pick": 11,
-     "adp": 34.5,
-     "expected": 117.3,
-     "actual": 58.7,
-     "residual": -58.6
-    },
-    {
-     "player": "Marvin Harrison Jr.",
-     "pick": 62,
-     "adp": 124.5,
-     "expected": 65.9,
-     "actual": 37.5,
-     "residual": -28.4
-    },
-    {
-     "player": "Cyrus Allen",
-     "pick": 179,
-     "adp": 169.7,
-     "expected": 39.8,
-     "actual": 11.5,
-     "residual": -28.3
-    },
-    {
-     "player": "Patrick Mahomes",
-     "pick": 134,
-     "adp": 101.5,
-     "expected": 147.0,
-     "actual": 186.3,
-     "residual": 39.4
-    },
-    {
-     "player": "Tee Higgins",
-     "pick": 38,
-     "adp": 30.6,
-     "expected": 123.7,
-     "actual": 159.8,
-     "residual": 36.1
-    },
-    {
-     "player": "Parker Washington",
-     "pick": 59,
-     "adp": 70.7,
-     "expected": 88.5,
-     "actual": 109.6,
-     "residual": 21.1
-    }
-   ],
-   "components": {
-    "schedule": 0.07,
-    "close": 0.0,
-    "pa": -0.51,
-    "injury": -1.31,
-    "draft": -1.78
-   },
-   "luckIndex": -58.1
+   "luckIndex": -42.9
   },
   {
    "teamId": 8,
    "name": "Bower Rangers ",
    "abbrev": "NIC",
    "wins": 6,
-   "losses": 12,
+   "losses": 14,
    "h2hWins": 2,
-   "h2hLosses": 7,
+   "h2hLosses": 8,
    "medianWins": 4,
-   "pointsFor": 1225.0,
-   "pointsAgainst": 1345.6,
-   "allPlayWins": 4.64,
-   "xWins": 8.64,
-   "winsVsExpected": -2.64,
+   "pointsFor": 1333.7,
+   "pointsAgainst": 1507.2,
+   "allPlayWins": 4.82,
+   "xWins": 8.82,
+   "winsVsExpected": -2.82,
    "closeWins": 0,
    "closeLosses": 3,
    "topScoreWeeks": 0,
-   "injuryPointsLost": 255.6,
-   "injuryPlayerWeeks": 20,
+   "injuryPointsLost": 263.4,
+   "injuryPlayerWeeks": 21,
    "injuryDetail": [
     {
      "week": 1,
      "player": "Brock Bowers",
      "slot": "IR",
-     "lostPpg": 20.9,
+     "lostPpg": 18.7,
      "type": "missed"
     },
     {
      "week": 2,
      "player": "Brock Bowers",
      "slot": "BE",
-     "lostPpg": 20.9,
+     "lostPpg": 18.7,
      "type": "missed"
     },
     {
@@ -3612,35 +3902,35 @@
      "week": 4,
      "player": "Breece Hall",
      "slot": "IR",
-     "lostPpg": 13.6,
+     "lostPpg": 13.8,
      "type": "missed"
     },
     {
      "week": 5,
      "player": "Breece Hall",
      "slot": "BE",
-     "lostPpg": 13.6,
+     "lostPpg": 13.8,
      "type": "missed"
     },
     {
      "week": 6,
      "player": "Breece Hall",
      "slot": "IR",
-     "lostPpg": 13.6,
+     "lostPpg": 13.8,
      "type": "missed"
     },
     {
      "week": 7,
      "player": "Breece Hall",
      "slot": "BE",
-     "lostPpg": 13.6,
+     "lostPpg": 13.8,
      "type": "missed"
     },
     {
      "week": 8,
      "player": "Breece Hall",
      "slot": "IR",
-     "lostPpg": 13.6,
+     "lostPpg": 13.8,
      "type": "missed"
     },
     {
@@ -3661,45 +3951,52 @@
      "week": 9,
      "player": "Kendrick Bourne",
      "slot": "IR",
-     "lostPpg": 6.4,
+     "lostPpg": 6.2,
      "type": "missed"
+    },
+    {
+     "week": 10,
+     "player": "Kendrick Bourne",
+     "slot": "--",
+     "lostPpg": 6.2,
+     "type": "post-drop"
     },
     {
      "week": 3,
      "player": "Adonai Mitchell",
      "slot": "BE",
-     "lostPpg": 4.1,
+     "lostPpg": 5.3,
      "type": "missed"
     },
     {
      "week": 4,
      "player": "Adonai Mitchell",
      "slot": "BE",
-     "lostPpg": 4.1,
+     "lostPpg": 5.3,
      "type": "missed"
     },
     {
      "week": 5,
      "player": "Adonai Mitchell",
      "slot": "BE",
-     "lostPpg": 4.1,
+     "lostPpg": 5.3,
      "type": "missed"
     },
     {
      "week": 6,
      "player": "Adonai Mitchell",
      "slot": "IR",
-     "lostPpg": 4.1,
+     "lostPpg": 5.3,
      "type": "missed"
     }
    ],
-   "regretPoints": 73.9,
-   "netRegretPoints": 18.6,
-   "lineupPoints": 1225.0,
-   "optimalPoints": 1373.9,
-   "efficiency": 0.892,
+   "regretPoints": 96.5,
+   "netRegretPoints": 31.7,
+   "lineupPoints": 1333.7,
+   "optimalPoints": 1482.6,
+   "efficiency": 0.9,
    "benchPointsLeft": 148.9,
-   "waiverPoints": 305.8,
+   "waiverPoints": 327.9,
    "waiverDetail": [
     {
      "player": "Jared Goff",
@@ -3719,14 +4016,14 @@
     },
     {
      "player": "Tyler Bass",
-     "points": 29.5
+     "points": 37.2
     },
     {
      "player": "Texans D/ST",
-     "points": 12.0
+     "points": 17.0
     }
    ],
-   "scoreStdev": 21.2,
+   "scoreStdev": 21.8,
    "regretDetail": [
     {
      "player": "Makai Lemon",
@@ -3738,6 +4035,24 @@
      "netRegret": 12.1
     },
     {
+     "player": "Konata Mumpfield",
+     "pos": "WR",
+     "droppedAfterWeek": 7,
+     "pointsSince": 11.1,
+     "gamesSince": 1,
+     "ppgSince": 11.1,
+     "netRegret": 7.1
+    },
+    {
+     "player": "Chiefs D/ST",
+     "pos": "D/ST",
+     "droppedAfterWeek": 3,
+     "pointsSince": 23.0,
+     "gamesSince": 4,
+     "ppgSince": 5.8,
+     "netRegret": 7.0
+    },
+    {
      "player": "MarShawn Lloyd",
      "pos": "RB",
      "droppedAfterWeek": 3,
@@ -3747,13 +4062,13 @@
      "netRegret": 3.5
     },
     {
-     "player": "Chiefs D/ST",
-     "pos": "D/ST",
-     "droppedAfterWeek": 3,
-     "pointsSince": 14.0,
-     "gamesSince": 3,
-     "ppgSince": 4.7,
-     "netRegret": 3.0
+     "player": "Corey Kiner",
+     "pos": "RB",
+     "droppedAfterWeek": 8,
+     "pointsSince": 2.5,
+     "gamesSince": 1,
+     "ppgSince": 2.5,
+     "netRegret": 2.0
     },
     {
      "player": "Tyjae Spears",
@@ -3765,81 +4080,81 @@
      "netRegret": 0.0
     }
    ],
-   "draftLuckPoints": -79.9,
+   "draftLuckPoints": -104.1,
    "draftDetail": [
     {
      "player": "Harrison Mevis",
      "pick": 151,
-     "adp": 154.9,
-     "expected": 68.9,
+     "adp": 155.5,
+     "expected": 75.4,
      "actual": 29.9,
-     "residual": -39.0
+     "residual": -45.5
+    },
+    {
+     "player": "Amon-Ra St. Brown",
+     "pick": 7,
+     "adp": 10.3,
+     "expected": 220.2,
+     "actual": 183.4,
+     "residual": -36.8
     },
     {
      "player": "DeVonta Smith",
      "pick": 31,
-     "adp": 69.4,
-     "expected": 90.9,
+     "adp": 69.9,
+     "expected": 96.6,
      "actual": 69.0,
-     "residual": -21.9
+     "residual": -27.6
     },
     {
      "player": "Tyjae Spears",
      "pick": 103,
      "adp": 165.2,
-     "expected": 46.0,
-     "actual": 27.1,
-     "residual": -18.9
+     "expected": 48.6,
+     "actual": 30.9,
+     "residual": -17.7
     },
     {
-     "player": "Brock Bowers",
-     "pick": 18,
-     "adp": 20.0,
-     "expected": 164.3,
-     "actual": 146.0,
-     "residual": -18.3
-    },
-    {
-     "player": "Amon-Ra St. Brown",
-     "pick": 7,
-     "adp": 10.9,
-     "expected": 173.4,
-     "actual": 157.6,
-     "residual": -15.8
+     "player": "Courtland Sutton",
+     "pick": 55,
+     "adp": 128.9,
+     "expected": 71.8,
+     "actual": 63.6,
+     "residual": -8.2
     },
     {
      "player": "Trevor Lawrence",
      "pick": 79,
-     "adp": 79.0,
-     "expected": 173.1,
-     "actual": 198.5,
-     "residual": 25.4
+     "adp": 76.4,
+     "expected": 212.2,
+     "actual": 233.8,
+     "residual": 21.6
     },
     {
      "player": "Wan'Dale Robinson",
      "pick": 90,
-     "adp": 133.8,
-     "expected": 62.2,
-     "actual": 77.3,
-     "residual": 15.1
+     "adp": 135.2,
+     "expected": 67.7,
+     "actual": 81.3,
+     "residual": 13.6
     },
     {
-     "player": "Tucker Kraft",
-     "pick": 66,
-     "adp": 101.6,
-     "expected": 85.8,
-     "actual": 90.4,
-     "residual": 4.6
+     "player": "Lions D/ST",
+     "pick": 162,
+     "adp": 160.9,
+     "expected": 44.6,
+     "actual": 51.0,
+     "residual": 6.4
     }
    ],
    "components": {
-    "schedule": -2.13,
+    "schedule": -2.03,
     "close": -1.96,
-    "pa": -2.21,
-    "injury": -0.51,
-    "draft": -0.78
+    "pa": -2.28,
+    "injury": -0.25,
+    "draft": -1.0
    },
-   "luckIndex": -158.8
+   "luckIndex": -154.8
   }
  ],
  "weekly": [
@@ -4922,6 +5237,126 @@
    "won": true,
    "beatMedian": true,
    "allPlayPct": 0.636
+  },
+  {
+   "week": 10,
+   "teamId": 7,
+   "points": 170.95,
+   "oppId": 2,
+   "oppPoints": 78.3,
+   "won": true,
+   "beatMedian": true,
+   "allPlayPct": 0.909
+  },
+  {
+   "week": 10,
+   "teamId": 2,
+   "points": 78.3,
+   "oppId": 7,
+   "oppPoints": 170.95,
+   "won": false,
+   "beatMedian": false,
+   "allPlayPct": 0.0
+  },
+  {
+   "week": 10,
+   "teamId": 8,
+   "points": 108.7,
+   "oppId": 5,
+   "oppPoints": 161.6,
+   "won": false,
+   "beatMedian": false,
+   "allPlayPct": 0.182
+  },
+  {
+   "week": 10,
+   "teamId": 5,
+   "points": 161.6,
+   "oppId": 8,
+   "oppPoints": 108.7,
+   "won": true,
+   "beatMedian": true,
+   "allPlayPct": 0.818
+  },
+  {
+   "week": 10,
+   "teamId": 13,
+   "points": 143.65,
+   "oppId": 1,
+   "oppPoints": 109.6,
+   "won": true,
+   "beatMedian": true,
+   "allPlayPct": 0.636
+  },
+  {
+   "week": 10,
+   "teamId": 1,
+   "points": 109.6,
+   "oppId": 13,
+   "oppPoints": 143.65,
+   "won": false,
+   "beatMedian": false,
+   "allPlayPct": 0.273
+  },
+  {
+   "week": 10,
+   "teamId": 11,
+   "points": 100.85,
+   "oppId": 10,
+   "oppPoints": 127.5,
+   "won": false,
+   "beatMedian": false,
+   "allPlayPct": 0.091
+  },
+  {
+   "week": 10,
+   "teamId": 10,
+   "points": 127.5,
+   "oppId": 11,
+   "oppPoints": 100.85,
+   "won": true,
+   "beatMedian": false,
+   "allPlayPct": 0.455
+  },
+  {
+   "week": 10,
+   "teamId": 6,
+   "points": 156.7,
+   "oppId": 9,
+   "oppPoints": 120.05,
+   "won": true,
+   "beatMedian": true,
+   "allPlayPct": 0.727
+  },
+  {
+   "week": 10,
+   "teamId": 9,
+   "points": 120.05,
+   "oppId": 6,
+   "oppPoints": 156.7,
+   "won": false,
+   "beatMedian": false,
+   "allPlayPct": 0.364
+  },
+  {
+   "week": 10,
+   "teamId": 14,
+   "points": 133.65,
+   "oppId": 3,
+   "oppPoints": 202.05,
+   "won": false,
+   "beatMedian": true,
+   "allPlayPct": 0.545
+  },
+  {
+   "week": 10,
+   "teamId": 3,
+   "points": 202.05,
+   "oppId": 14,
+   "oppPoints": 133.65,
+   "won": true,
+   "beatMedian": true,
+   "allPlayPct": 1.0
   }
  ],
  "luckiestWins": [
@@ -5088,11 +5523,11 @@
      "received": [
       {
        "player": "Bhayshul Tuten",
-       "totalSince": 86.2,
-       "startedSince": 86.2
+       "totalSince": 106.5,
+       "startedSince": 106.5
       }
      ],
-     "startedTotal": 86.2
+     "startedTotal": 106.5
     }
    ]
   },
@@ -5104,8 +5539,8 @@
      "received": [
       {
        "player": "George Pickens",
-       "totalSince": 73.3,
-       "startedSince": 73.3
+       "totalSince": 116.8,
+       "startedSince": 116.8
       },
       {
        "player": "Alvin Kamara",
@@ -5113,23 +5548,23 @@
        "startedSince": 0.0
       }
      ],
-     "startedTotal": 73.3
+     "startedTotal": 116.8
     },
     {
      "team": "Nice Tets, B. Nix",
      "received": [
       {
        "player": "Josh Downs",
-       "totalSince": 42.5,
-       "startedSince": 42.5
+       "totalSince": 57.8,
+       "startedSince": 57.8
       },
       {
        "player": "Mark Andrews",
-       "totalSince": 33.5,
+       "totalSince": 49.7,
        "startedSince": 15.9
       }
      ],
-     "startedTotal": 58.4
+     "startedTotal": 73.7
     }
    ]
   },
@@ -5146,11 +5581,11 @@
       },
       {
        "player": "Quinshon Judkins",
-       "totalSince": 65.4,
-       "startedSince": 65.4
+       "totalSince": 81.5,
+       "startedSince": 81.5
       }
      ],
-     "startedTotal": 74.4
+     "startedTotal": 90.5
     },
     {
      "team": "Laporta Potty",
@@ -5174,6 +5609,11 @@
  "recordBook": {
   "highScores": [
    {
+    "points": 202.1,
+    "teamId": 3,
+    "week": 10
+   },
+   {
     "points": 184.7,
     "teamId": 14,
     "week": 1
@@ -5192,11 +5632,6 @@
     "points": 180.7,
     "teamId": 7,
     "week": 5
-   },
-   {
-    "points": 177.3,
-    "teamId": 6,
-    "week": 1
    }
   ],
   "lowScores": [
@@ -5211,6 +5646,11 @@
     "week": 6
    },
    {
+    "points": 78.3,
+    "teamId": 2,
+    "week": 10
+   },
+   {
     "points": 84.0,
     "teamId": 5,
     "week": 8
@@ -5219,20 +5659,15 @@
     "points": 86.0,
     "teamId": 5,
     "week": 7
-   },
-   {
-    "points": 87.2,
-    "teamId": 9,
-    "week": 6
    }
   ],
   "biggestBlowout": {
-   "week": 1,
-   "winner": 6,
-   "loser": 11,
-   "winPts": 177.3,
-   "losePts": 97.5,
-   "margin": 79.9
+   "week": 10,
+   "winner": 7,
+   "loser": 2,
+   "winPts": 170.9,
+   "losePts": 78.3,
+   "margin": 92.6
   },
   "narrowestWin": {
    "week": 3,
