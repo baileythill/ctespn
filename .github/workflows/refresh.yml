@@ -2,7 +2,7 @@ name: Refresh data and deploy
 
 on:
   schedule:
-    - cron: "0 13 * * 2" # Tuesdays 8am ET: the week is locked, the sob stories are ready
+    - cron: "23 13 * * 2" # Tuesdays ~8:23am ET: off-peak minute so GitHub doesn't drop the run
   workflow_dispatch:
   push:
     branches: [main]
